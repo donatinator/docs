@@ -1,0 +1,144 @@
+{
+    "docs": [
+        {
+            "location": "/",
+            "text": "The Donatinator\n\n\nThe Donatinator is an open-source web application to help you accept One-Off or Recurring Donations for your charity or\nnon-profit. It is written in nodejs, uses Postgres, and can be hosted on your own server, Heroku, AppEngine, and many\nother hosting sites. It uses Stripe for payment processing.\n\n\nA demo site can be seen at \ndonatinator.herokuapp.com\n.\n\n\nLicense\n\n\nThe Donatinator is AGPLv3 which means you can use it for free, forever. It also means that if you change it, you must\nlink to your changed source code so that the end-user can view it.\n\n\nAuthor\n\n\nWritten by Andrew Chilton.\n\n\n\n\nandychilton at gmail.com\n\n\nchilts.org\n\n\nTwitter:andychilton\n\n\nGitHub:chilts\n\n\n\n\n(Ends)",
+            "title": "Home"
+        },
+        {
+            "location": "/#the-donatinator",
+            "text": "The Donatinator is an open-source web application to help you accept One-Off or Recurring Donations for your charity or\nnon-profit. It is written in nodejs, uses Postgres, and can be hosted on your own server, Heroku, AppEngine, and many\nother hosting sites. It uses Stripe for payment processing.  A demo site can be seen at  donatinator.herokuapp.com .",
+            "title": "The Donatinator"
+        },
+        {
+            "location": "/#license",
+            "text": "The Donatinator is AGPLv3 which means you can use it for free, forever. It also means that if you change it, you must\nlink to your changed source code so that the end-user can view it.",
+            "title": "License"
+        },
+        {
+            "location": "/#author",
+            "text": "Written by Andrew Chilton.   andychilton at gmail.com  chilts.org  Twitter:andychilton  GitHub:chilts   (Ends)",
+            "title": "Author"
+        },
+        {
+            "location": "/user/features/",
+            "text": "Features\n\n\n(Ends)",
+            "title": "Features"
+        },
+        {
+            "location": "/user/features/#features",
+            "text": "(Ends)",
+            "title": "Features"
+        },
+        {
+            "location": "/user/campaigns/",
+            "text": "Campaigns\n\n\n(Ends)",
+            "title": "Campaigns"
+        },
+        {
+            "location": "/user/campaigns/#campaigns",
+            "text": "(Ends)",
+            "title": "Campaigns"
+        },
+        {
+            "location": "/user/campaigns/",
+            "text": "Campaigns\n\n\n(Ends)",
+            "title": "Campaigns"
+        },
+        {
+            "location": "/user/campaigns/#campaigns",
+            "text": "(Ends)",
+            "title": "Campaigns"
+        },
+        {
+            "location": "/user/fundraising/",
+            "text": "Fundraising\n\n\n(Ends)",
+            "title": "Fundraising"
+        },
+        {
+            "location": "/user/fundraising/#fundraising",
+            "text": "(Ends)",
+            "title": "Fundraising"
+        },
+        {
+            "location": "/config/environment/",
+            "text": "Environment\n\n\n(Ends)",
+            "title": "Environment"
+        },
+        {
+            "location": "/config/environment/#environment",
+            "text": "(Ends)",
+            "title": "Environment"
+        },
+        {
+            "location": "/config/themes/",
+            "text": "Themes\n\n\n(Ends)",
+            "title": "Themes"
+        },
+        {
+            "location": "/config/themes/#themes",
+            "text": "(Ends)",
+            "title": "Themes"
+        },
+        {
+            "location": "/config/plugins/",
+            "text": "Plugins\n\n\n(Ends)",
+            "title": "Plugins"
+        },
+        {
+            "location": "/config/plugins/#plugins",
+            "text": "(Ends)",
+            "title": "Plugins"
+        },
+        {
+            "location": "/tech/considerations/",
+            "text": "Considerations\n\n\n(Ends)",
+            "title": "Considerations"
+        },
+        {
+            "location": "/tech/considerations/#considerations",
+            "text": "(Ends)",
+            "title": "Considerations"
+        },
+        {
+            "location": "/tech/hosting/",
+            "text": "Hosting\n\n\n(Ends)",
+            "title": "Hosting"
+        },
+        {
+            "location": "/tech/hosting/#hosting",
+            "text": "(Ends)",
+            "title": "Hosting"
+        },
+        {
+            "location": "/about/release-notes/",
+            "text": "Release Notes\n\n\n(Ends)",
+            "title": "Release Notes"
+        },
+        {
+            "location": "/about/release-notes/#release-notes",
+            "text": "(Ends)",
+            "title": "Release Notes"
+        },
+        {
+            "location": "/about/contributing/",
+            "text": "Contributing\n\n\n(Ends)",
+            "title": "Contributing"
+        },
+        {
+            "location": "/about/contributing/#contributing",
+            "text": "(Ends)",
+            "title": "Contributing"
+        },
+        {
+            "location": "/about/license/",
+            "text": "License\n\n\n(Ends)",
+            "title": "License"
+        },
+        {
+            "location": "/about/license/#license",
+            "text": "(Ends)",
+            "title": "License"
+        }
+    ]
+}
