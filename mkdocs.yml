@@ -1,0 +1,29 @@
+site_name: The Donatinator
+site_url: http://donatinator.org
+site_description: A small, simple, secure way to accept Single or Recurring Donations for your charities and non-profits.
+site_author: Andrew Chilton
+
+repo_url: https://github.com/donatinator/donatinator
+
+pages:
+- Home: index.md
+- User Guide:
+    - Features: user/features.md
+    - Campaigns: user/campaigns.md
+    - Campaigns: user/campaigns.md
+    - Fundraising: user/fundraising.md
+- Configuration:
+    - Environment: config/environment.md
+    - Themes: config/themes.md
+    - Plugins: config/plugins.md
+- Technical Guide:
+    - Considerations: tech/considerations.md
+    - Hosting: tech/hosting.md
+- About:
+    - Release Notes: about/release-notes.md
+    - Contributing: about/contributing.md
+- License: about/license.md
+
+site_dir: html
+
+copyright: Copyright &copy; 2017 <a href="https://twitter.com/andychilton">Andrew Chilton</a>.
