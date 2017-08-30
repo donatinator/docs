@@ -65,13 +65,19 @@
                         
                             
 <li >
-    <a href="user/features/">Features</a>
+    <a href="user/getting-started/">Getting Started</a>
 </li>
 
                         
                             
 <li >
-    <a href="user/campaigns/">Campaigns</a>
+    <a href="user/single-donations/">Single Donations</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="user/recurring-donations/">Recurring Donations</a>
 </li>
 
                         
@@ -135,6 +141,12 @@
 </li>
 
                         
+                            
+<li >
+    <a href="tech/terminology/">Terminology</a>
+</li>
+
+                        
                         </ul>
                     </li>
                 
@@ -143,6 +155,18 @@
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                         <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="about/why/">Why a Donor Portal?</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="about/faq/">FAQ</a>
+</li>
+
                         
                             
 <li >
@@ -156,13 +180,13 @@
 </li>
 
                         
+                            
+<li >
+    <a href="about/license/">License</a>
+</li>
+
+                        
                         </ul>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="about/license/">License</a>
                     </li>
                 
                 
@@ -182,7 +206,7 @@
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="user/features/">
+                        <a rel="prev" href="user/getting-started/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -209,6 +233,10 @@
     
         <li class="main active"><a href="#the-donatinator">The Donatinator</a></li>
         
+            <li><a href="#features">Features</a></li>
+        
+            <li><a href="#demo-sites">Demo Sites</a></li>
+        
             <li><a href="#license">License</a></li>
         
             <li><a href="#author">Author</a></li>
@@ -222,7 +250,30 @@
 <p>The Donatinator is an open-source web application to help you accept One-Off or Recurring Donations for your charity or
 non-profit. It is written in nodejs, uses Postgres, and can be hosted on your own server, Heroku, AppEngine, and many
 other hosting sites. It uses Stripe for payment processing.</p>
+<h2 id="features">Features</h2>
+<p>Thought this project is still young, it already has a solid feature set and is stable. Future improvements will be
+built on top of the foundation already provided.</p>
+<ul>
+<li>accept single/one-off donations</li>
+<li>set up recurring donations (weekly, monthly, yearly)</li>
+<li>set default currency</li>
+<li>content pages written in Markdown</li>
+<li>embed a donation form into your current site (coming soon!)</li>
+<li>set up 'Campaigns' for you to raise funds (coming soon!)</li>
+<li>allow your supporters to set up a 'Fund Raising' page (coming soon!)</li>
+</ul>
+<p>Essentially we want the Donatinator to be as featureful as any of the hosted (paid) sites out there and in fact, a
+superset of what any specific one of them provides.</p>
+<h2 id="demo-sites">Demo Sites</h2>
 <p>A demo site can be seen at <a href="https://donatinator.herokuapp.com/">donatinator.herokuapp.com</a>.</p>
+<p>In the future, we will set up demo sites on all of the following platforms:</p>
+<ul>
+<li>Heroku (Done)</li>
+<li>Google AppEngine</li>
+<li>OpenShift</li>
+<li>now.sh</li>
+<li>(any others?)</li>
+</ul>
 <h2 id="license">License</h2>
 <p>The Donatinator is AGPLv3 which means you can use it for free, forever. It also means that if you change it, you must
 link to your changed source code so that the end-user can view it.</p>
@@ -283,5 +334,5 @@ link to your changed source code so that the end-user can view it.</p>
 
 <!--
 MkDocs version : 0.14.0
-Build Date UTC : 2017-08-29 04:32:40.575664
+Build Date UTC : 2017-08-30 09:32:38.472892
 -->

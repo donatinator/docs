@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Andrew Chilton">
-        <link rel="canonical" href="http://donatinator.org/config/themes/">
+        <link rel="canonical" href="http://donatinator.org/about/faq/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Themes - The Donatinator</title>
+	<title>FAQ - The Donatinator</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -98,25 +98,25 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../environment/">Environment</a>
-</li>
-
-                        
-                            
-<li class="active">
-    <a href="./">Themes</a>
+    <a href="../../config/environment/">Environment</a>
 </li>
 
                         
                             
 <li >
-    <a href="../plugins/">Plugins</a>
+    <a href="../../config/themes/">Themes</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../config/plugins/">Plugins</a>
 </li>
 
                         
@@ -152,37 +152,37 @@
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
 <li >
-    <a href="../../about/why/">Why a Donor Portal?</a>
+    <a href="../why/">Why a Donor Portal?</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">FAQ</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../about/faq/">FAQ</a>
+    <a href="../release-notes/">Release Notes</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../about/release-notes/">Release Notes</a>
+    <a href="../contributing/">Contributing</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../about/contributing/">Contributing</a>
-</li>
-
-                        
-                            
-<li >
-    <a href="../../about/license/">License</a>
+    <a href="../license/">License</a>
 </li>
 
                         
@@ -201,12 +201,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../environment/">
+                        <a rel="next" href="../why/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../plugins/">
+                        <a rel="prev" href="../release-notes/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -231,14 +231,32 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#themes">Themes</a></li>
+        <li class="main active"><a href="#faq">F.A.Q.</a></li>
+        
+            <li><a href="#general">General</a></li>
+        
+            <li><a href="#payment-processor">Payment Processor</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="themes">Themes</h2>
+<h1 id="faq">F.A.Q.</h1>
+<h2 id="general">General</h2>
+<p>ToDo.</p>
+<h2 id="payment-processor">Payment Processor</h2>
+<h4 id="why-are-you-using-stripe-as-a-payment-processor-and-not-paypal-braintree-payment-express-or-anything-else">Why are you using Stripe as a payment processor and not PayPal / Braintree / Payment Express or anything else?</h4>
+<p>There are ultimately two reasons why we decided to go with Stripe.</p>
+<p>The first reason we decided on Stripe above all others is because their interfaces for all vested parties is
+excellent. The end-user experience is the best we have come across. Their dashboard for the account itself is clean,
+crisp, and clear. And finally the docs, API, and provided libraries for the developer is the best in class.</p>
+<p>The second reason we decided to concentrate on only one payment processor is because they all provide their service in
+subtly different ways even though they all provide a similar service.  Most of the complicated logic in our app lies
+with talking to the payment processor, hence by keeping us focussed on only one we can keep our application smaller and
+hopefully more reliable.</p>
+<h4 id="what-do-i-need-to-do-to-set-myself-up-with-stripe">What do I need to do to set myself up with Stripe?</h4>
+<p>Please see their documentation for more details. (ToDo: provide a link here.)</p>
 <p>(Ends)</p></div>
             
         </div>

@@ -2,13 +2,23 @@
     "docs": [
         {
             "location": "/",
-            "text": "The Donatinator\n\n\nThe Donatinator is an open-source web application to help you accept One-Off or Recurring Donations for your charity or\nnon-profit. It is written in nodejs, uses Postgres, and can be hosted on your own server, Heroku, AppEngine, and many\nother hosting sites. It uses Stripe for payment processing.\n\n\nA demo site can be seen at \ndonatinator.herokuapp.com\n.\n\n\nLicense\n\n\nThe Donatinator is AGPLv3 which means you can use it for free, forever. It also means that if you change it, you must\nlink to your changed source code so that the end-user can view it.\n\n\nAuthor\n\n\nWritten by Andrew Chilton.\n\n\n\n\nandychilton at gmail.com\n\n\nchilts.org\n\n\nTwitter:andychilton\n\n\nGitHub:chilts\n\n\n\n\n(Ends)",
+            "text": "The Donatinator\n\n\nThe Donatinator is an open-source web application to help you accept One-Off or Recurring Donations for your charity or\nnon-profit. It is written in nodejs, uses Postgres, and can be hosted on your own server, Heroku, AppEngine, and many\nother hosting sites. It uses Stripe for payment processing.\n\n\nFeatures\n\n\nThought this project is still young, it already has a solid feature set and is stable. Future improvements will be\nbuilt on top of the foundation already provided.\n\n\n\n\naccept single/one-off donations\n\n\nset up recurring donations (weekly, monthly, yearly)\n\n\nset default currency\n\n\ncontent pages written in Markdown\n\n\nembed a donation form into your current site (coming soon!)\n\n\nset up 'Campaigns' for you to raise funds (coming soon!)\n\n\nallow your supporters to set up a 'Fund Raising' page (coming soon!)\n\n\n\n\nEssentially we want the Donatinator to be as featureful as any of the hosted (paid) sites out there and in fact, a\nsuperset of what any specific one of them provides.\n\n\nDemo Sites\n\n\nA demo site can be seen at \ndonatinator.herokuapp.com\n.\n\n\nIn the future, we will set up demo sites on all of the following platforms:\n\n\n\n\nHeroku (Done)\n\n\nGoogle AppEngine\n\n\nOpenShift\n\n\nnow.sh\n\n\n(any others?)\n\n\n\n\nLicense\n\n\nThe Donatinator is AGPLv3 which means you can use it for free, forever. It also means that if you change it, you must\nlink to your changed source code so that the end-user can view it.\n\n\nAuthor\n\n\nWritten by Andrew Chilton.\n\n\n\n\nandychilton at gmail.com\n\n\nchilts.org\n\n\nTwitter:andychilton\n\n\nGitHub:chilts\n\n\n\n\n(Ends)",
             "title": "Home"
         },
         {
             "location": "/#the-donatinator",
-            "text": "The Donatinator is an open-source web application to help you accept One-Off or Recurring Donations for your charity or\nnon-profit. It is written in nodejs, uses Postgres, and can be hosted on your own server, Heroku, AppEngine, and many\nother hosting sites. It uses Stripe for payment processing.  A demo site can be seen at  donatinator.herokuapp.com .",
+            "text": "The Donatinator is an open-source web application to help you accept One-Off or Recurring Donations for your charity or\nnon-profit. It is written in nodejs, uses Postgres, and can be hosted on your own server, Heroku, AppEngine, and many\nother hosting sites. It uses Stripe for payment processing.",
             "title": "The Donatinator"
+        },
+        {
+            "location": "/#features",
+            "text": "Thought this project is still young, it already has a solid feature set and is stable. Future improvements will be\nbuilt on top of the foundation already provided.   accept single/one-off donations  set up recurring donations (weekly, monthly, yearly)  set default currency  content pages written in Markdown  embed a donation form into your current site (coming soon!)  set up 'Campaigns' for you to raise funds (coming soon!)  allow your supporters to set up a 'Fund Raising' page (coming soon!)   Essentially we want the Donatinator to be as featureful as any of the hosted (paid) sites out there and in fact, a\nsuperset of what any specific one of them provides.",
+            "title": "Features"
+        },
+        {
+            "location": "/#demo-sites",
+            "text": "A demo site can be seen at  donatinator.herokuapp.com .  In the future, we will set up demo sites on all of the following platforms:   Heroku (Done)  Google AppEngine  OpenShift  now.sh  (any others?)",
+            "title": "Demo Sites"
         },
         {
             "location": "/#license",
@@ -21,24 +31,34 @@
             "title": "Author"
         },
         {
-            "location": "/user/features/",
-            "text": "Features\n\n\n(Ends)",
-            "title": "Features"
+            "location": "/user/getting-started/",
+            "text": "Getting Started\n\n\n(Ends)",
+            "title": "Getting Started"
         },
         {
-            "location": "/user/features/#features",
+            "location": "/user/getting-started/#getting-started",
             "text": "(Ends)",
-            "title": "Features"
+            "title": "Getting Started"
         },
         {
-            "location": "/user/campaigns/",
-            "text": "Campaigns\n\n\n(Ends)",
-            "title": "Campaigns"
+            "location": "/user/single-donations/",
+            "text": "Single Donations\n\n\n(Ends)",
+            "title": "Single Donations"
         },
         {
-            "location": "/user/campaigns/#campaigns",
+            "location": "/user/single-donations/#single-donations",
             "text": "(Ends)",
-            "title": "Campaigns"
+            "title": "Single Donations"
+        },
+        {
+            "location": "/user/recurring-donations/",
+            "text": "Recurring Donations\n\n\n(Ends)",
+            "title": "Recurring Donations"
+        },
+        {
+            "location": "/user/recurring-donations/#recurring-donations",
+            "text": "(Ends)",
+            "title": "Recurring Donations"
         },
         {
             "location": "/user/campaigns/",
@@ -111,6 +131,46 @@
             "title": "Hosting"
         },
         {
+            "location": "/tech/terminology/",
+            "text": "Terminology\n\n\nIn most cases we use the same terminology as other charities or non-profits use. We also try and stick to the same\nterms as what Stripe uses, but sometimes we use alternative terms if it makes more sense. Here we try and demistify\nsome of the terms you may see reguarding online donations.\n\n\n\n\nOne-Off Donation\n\n\na single donation by a person\n\n\n\n\n\n\nPlan\n\n\ndescribes how much should be donated and at what interval\n\n\n\n\n\n\nRecurring Donations\n\n\nsee \nPlan\n\n\n\n\n\n\nSingle Donation\n\n\nsee \nOne-Off Donation\n\n\n\n\n\n\nSubscriber\n (aka 'Supporter', 'Donor', 'Friend')\n\n\nthe person who donates regularly (ie. has a subscription)\n\n\n\n\n\n\nSubscription\n\n\na promise of a regular payment (described by a \nPlan\n) from a \nSubscriber\n\n\n\n\n\n\n\n\n(Ends)",
+            "title": "Terminology"
+        },
+        {
+            "location": "/tech/terminology/#terminology",
+            "text": "In most cases we use the same terminology as other charities or non-profits use. We also try and stick to the same\nterms as what Stripe uses, but sometimes we use alternative terms if it makes more sense. Here we try and demistify\nsome of the terms you may see reguarding online donations.   One-Off Donation  a single donation by a person    Plan  describes how much should be donated and at what interval    Recurring Donations  see  Plan    Single Donation  see  One-Off Donation    Subscriber  (aka 'Supporter', 'Donor', 'Friend')  the person who donates regularly (ie. has a subscription)    Subscription  a promise of a regular payment (described by a  Plan ) from a  Subscriber     (Ends)",
+            "title": "Terminology"
+        },
+        {
+            "location": "/about/why/",
+            "text": "Why a Donor Portal?\n\n\nRecently I've been helping a small charity set up the ability to take online donations. After initial discussions about\nwhat they would need to consider and what technical problems we had to solve, we started on the research path to find\nout what hosting environments were needed and who could already provide this.\n\n\nBut as a programmer, something was already tickling the back of my brain. Most, if not all, of the services required\nwould have to be paid for and, to be honest, it all seemed too hard.\n\n\n(Note: I have a blog post brewing with all of the things we encountered, so I'll link to that from here soon.)\n\n\nThere is a \nbig\n list of roadblocks we hit along the way, but the main thing came down to this:\n\n\n\n\nBeing able to use your own domain with HTTPS (TLS/SSL) is going to cost money.\n\n\n\n\nAs a programmer who knows how to get free/cheap hosting, free SSL certificates (thanks to LetsEncrypt) I just thought\nto myself that a small charity shouldn't \nhave\n to pay someone to do all of this for them. I think they \ncan\n pay\nsomeone if they want to, but to me, there didn't seem like there was a simple and free option out there they could use.\n\n\nIn the end, I just started programming \nThe Donatinator\n on the hope that the charity would use it and I could open\nsource it for anyone else to use too! Unfortunately the charity found a solution called 'DonorBox' which I looked at\nand told them that it looked perfect for their use case. They decided to use that instead.\n\n\nI was obviously sad about this ...\n\n\n... however, there is still a gap in the market ...\n\n\n... and that made me more determined to carry on and make something out of this great start!\n\n\nSo I continued to develop \nThe Donatinator\n and now it is more than capable of doing most of what you need.\n\n\n-- Andrew Chilton (2017-08-29)\n\n\n(Ends)",
+            "title": "Why a Donor Portal?"
+        },
+        {
+            "location": "/about/why/#why-a-donor-portal",
+            "text": "Recently I've been helping a small charity set up the ability to take online donations. After initial discussions about\nwhat they would need to consider and what technical problems we had to solve, we started on the research path to find\nout what hosting environments were needed and who could already provide this.  But as a programmer, something was already tickling the back of my brain. Most, if not all, of the services required\nwould have to be paid for and, to be honest, it all seemed too hard.  (Note: I have a blog post brewing with all of the things we encountered, so I'll link to that from here soon.)  There is a  big  list of roadblocks we hit along the way, but the main thing came down to this:   Being able to use your own domain with HTTPS (TLS/SSL) is going to cost money.   As a programmer who knows how to get free/cheap hosting, free SSL certificates (thanks to LetsEncrypt) I just thought\nto myself that a small charity shouldn't  have  to pay someone to do all of this for them. I think they  can  pay\nsomeone if they want to, but to me, there didn't seem like there was a simple and free option out there they could use.  In the end, I just started programming  The Donatinator  on the hope that the charity would use it and I could open\nsource it for anyone else to use too! Unfortunately the charity found a solution called 'DonorBox' which I looked at\nand told them that it looked perfect for their use case. They decided to use that instead.  I was obviously sad about this ...  ... however, there is still a gap in the market ...  ... and that made me more determined to carry on and make something out of this great start!  So I continued to develop  The Donatinator  and now it is more than capable of doing most of what you need.  -- Andrew Chilton (2017-08-29)  (Ends)",
+            "title": "Why a Donor Portal?"
+        },
+        {
+            "location": "/about/faq/",
+            "text": "F.A.Q.\n\n\nGeneral\n\n\nToDo.\n\n\nPayment Processor\n\n\nWhy are you using Stripe as a payment processor and not PayPal / Braintree / Payment Express or anything else?\n\n\nThere are ultimately two reasons why we decided to go with Stripe.\n\n\nThe first reason we decided on Stripe above all others is because their interfaces for all vested parties is\nexcellent. The end-user experience is the best we have come across. Their dashboard for the account itself is clean,\ncrisp, and clear. And finally the docs, API, and provided libraries for the developer is the best in class.\n\n\nThe second reason we decided to concentrate on only one payment processor is because they all provide their service in\nsubtly different ways even though they all provide a similar service.  Most of the complicated logic in our app lies\nwith talking to the payment processor, hence by keeping us focussed on only one we can keep our application smaller and\nhopefully more reliable.\n\n\nWhat do I need to do to set myself up with Stripe?\n\n\nPlease see their documentation for more details. (ToDo: provide a link here.)\n\n\n(Ends)",
+            "title": "FAQ"
+        },
+        {
+            "location": "/about/faq/#faq",
+            "text": "",
+            "title": "F.A.Q."
+        },
+        {
+            "location": "/about/faq/#general",
+            "text": "ToDo.",
+            "title": "General"
+        },
+        {
+            "location": "/about/faq/#payment-processor",
+            "text": "Why are you using Stripe as a payment processor and not PayPal / Braintree / Payment Express or anything else?  There are ultimately two reasons why we decided to go with Stripe.  The first reason we decided on Stripe above all others is because their interfaces for all vested parties is\nexcellent. The end-user experience is the best we have come across. Their dashboard for the account itself is clean,\ncrisp, and clear. And finally the docs, API, and provided libraries for the developer is the best in class.  The second reason we decided to concentrate on only one payment processor is because they all provide their service in\nsubtly different ways even though they all provide a similar service.  Most of the complicated logic in our app lies\nwith talking to the payment processor, hence by keeping us focussed on only one we can keep our application smaller and\nhopefully more reliable.  What do I need to do to set myself up with Stripe?  Please see their documentation for more details. (ToDo: provide a link here.)  (Ends)",
+            "title": "Payment Processor"
+        },
+        {
             "location": "/about/release-notes/",
             "text": "Release Notes\n\n\n(Ends)",
             "title": "Release Notes"
@@ -132,13 +192,23 @@
         },
         {
             "location": "/about/license/",
-            "text": "License\n\n\n(Ends)",
+            "text": "Licenses\n\n\nCode\n\n\nAll code is licensed under the \nAGPLv3\n.\n\n\nDocumentation\n\n\nAll documentation is licensed under a \nCreative Commons Attribution-ShareAlike 4.0 International License\n.\n\n\n(Ends)",
             "title": "License"
         },
         {
-            "location": "/about/license/#license",
-            "text": "(Ends)",
-            "title": "License"
+            "location": "/about/license/#licenses",
+            "text": "",
+            "title": "Licenses"
+        },
+        {
+            "location": "/about/license/#code",
+            "text": "All code is licensed under the  AGPLv3 .",
+            "title": "Code"
+        },
+        {
+            "location": "/about/license/#documentation",
+            "text": "All documentation is licensed under a  Creative Commons Attribution-ShareAlike 4.0 International License .  (Ends)",
+            "title": "Documentation"
         }
     ]
 }

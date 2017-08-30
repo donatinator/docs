@@ -6,10 +6,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         <meta name="author" content="Andrew Chilton">
-        <link rel="canonical" href="http://donatinator.org/user/features/">
+        <link rel="canonical" href="http://donatinator.org/about/why/">
         <link rel="shortcut icon" href="../../img/favicon.ico">
 
-	<title>Features - The Donatinator</title>
+	<title>Why a Donor Portal? - The Donatinator</title>
 
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
@@ -59,31 +59,37 @@
                 
                 
                 
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li class="active">
-    <a href="./">Features</a>
+<li >
+    <a href="../../user/getting-started/">Getting Started</a>
 </li>
 
                         
                             
 <li >
-    <a href="../campaigns/">Campaigns</a>
+    <a href="../../user/single-donations/">Single Donations</a>
 </li>
 
                         
                             
 <li >
-    <a href="../campaigns/">Campaigns</a>
+    <a href="../../user/recurring-donations/">Recurring Donations</a>
 </li>
 
                         
                             
 <li >
-    <a href="../fundraising/">Fundraising</a>
+    <a href="../../user/campaigns/">Campaigns</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../user/fundraising/">Fundraising</a>
 </li>
 
                         
@@ -135,34 +141,52 @@
 </li>
 
                         
+                            
+<li >
+    <a href="../../tech/terminology/">Terminology</a>
+</li>
+
+                        
                         </ul>
                     </li>
                 
                 
                 
-                    <li class="dropdown">
+                    <li class="dropdown active">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
                         <ul class="dropdown-menu">
                         
                             
-<li >
-    <a href="../../about/release-notes/">Release Notes</a>
+<li class="active">
+    <a href="./">Why a Donor Portal?</a>
 </li>
 
                         
                             
 <li >
-    <a href="../../about/contributing/">Contributing</a>
+    <a href="../faq/">FAQ</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../release-notes/">Release Notes</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../contributing/">Contributing</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../license/">License</a>
 </li>
 
                         
                         </ul>
-                    </li>
-                
-                
-                
-                    <li >
-                        <a href="../../about/license/">License</a>
                     </li>
                 
                 
@@ -177,12 +201,12 @@
                 </li>
                 
                     <li >
-                        <a rel="next" href="../..">
+                        <a rel="next" href="../../tech/terminology/">
                             <i class="fa fa-arrow-left"></i> Previous
                         </a>
                     </li>
                     <li >
-                        <a rel="prev" href="../campaigns/">
+                        <a rel="prev" href="../faq/">
                             Next <i class="fa fa-arrow-right"></i>
                         </a>
                     </li>
@@ -207,14 +231,35 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
     
-        <li class="main active"><a href="#features">Features</a></li>
+        <li class="main active"><a href="#why-a-donor-portal">Why a Donor Portal?</a></li>
         
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="features">Features</h2>
+<h1 id="why-a-donor-portal">Why a Donor Portal?</h1>
+<p>Recently I've been helping a small charity set up the ability to take online donations. After initial discussions about
+what they would need to consider and what technical problems we had to solve, we started on the research path to find
+out what hosting environments were needed and who could already provide this.</p>
+<p>But as a programmer, something was already tickling the back of my brain. Most, if not all, of the services required
+would have to be paid for and, to be honest, it all seemed too hard.</p>
+<p>(Note: I have a blog post brewing with all of the things we encountered, so I'll link to that from here soon.)</p>
+<p>There is a <strong>big</strong> list of roadblocks we hit along the way, but the main thing came down to this:</p>
+<blockquote>
+<p>Being able to use your own domain with HTTPS (TLS/SSL) is going to cost money.</p>
+</blockquote>
+<p>As a programmer who knows how to get free/cheap hosting, free SSL certificates (thanks to LetsEncrypt) I just thought
+to myself that a small charity shouldn't <strong>have</strong> to pay someone to do all of this for them. I think they <strong>can</strong> pay
+someone if they want to, but to me, there didn't seem like there was a simple and free option out there they could use.</p>
+<p>In the end, I just started programming <em>The Donatinator</em> on the hope that the charity would use it and I could open
+source it for anyone else to use too! Unfortunately the charity found a solution called 'DonorBox' which I looked at
+and told them that it looked perfect for their use case. They decided to use that instead.</p>
+<p>I was obviously sad about this ...</p>
+<p>... however, there is still a gap in the market ...</p>
+<p>... and that made me more determined to carry on and make something out of this great start!</p>
+<p>So I continued to develop <em>The Donatinator</em> and now it is more than capable of doing most of what you need.</p>
+<p>-- Andrew Chilton (2017-08-29)</p>
 <p>(Ends)</p></div>
             
         </div>
