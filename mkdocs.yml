@@ -8,8 +8,9 @@ repo_url: https://github.com/donatinator/donatinator
 pages:
 - Home: index.md
 - User Guide:
-    - Features: user/features.md
-    - Campaigns: user/campaigns.md
+    - Getting Started: user/getting-started.md
+    - Single Donations: user/single-donations.md
+    - Recurring Donations: user/recurring-donations.md
     - Campaigns: user/campaigns.md
     - Fundraising: user/fundraising.md
 - Configuration:
@@ -19,10 +20,13 @@ pages:
 - Technical Guide:
     - Considerations: tech/considerations.md
     - Hosting: tech/hosting.md
+    - Terminology: tech/terminology.md
 - About:
+    - Why a Donor Portal?: about/why.md
+    - FAQ: about/faq.md
     - Release Notes: about/release-notes.md
     - Contributing: about/contributing.md
-- License: about/license.md
+    - License: about/license.md
 
 site_dir: html
 
