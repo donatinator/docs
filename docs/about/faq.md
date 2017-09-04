@@ -16,8 +16,8 @@ crisp, and clear. And finally the docs, API, and provided libraries for the deve
 
 The second reason we decided to concentrate on only one payment processor is because they all provide their service in
 subtly different ways even though they all provide a similar service.  Most of the complicated logic in our app lies
-with talking to the payment processor, hence by keeping us focussed on only one we can keep our application smaller and
-hopefully more reliable.
+with talking to the payment processor, hence by keeping us focussed on only one we can keep our application smaller,
+more stable, and as reliable as we can.
 
 #### What do I need to do to set myself up with Stripe? ####
 
