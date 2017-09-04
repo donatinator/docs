@@ -152,7 +152,7 @@
         },
         {
             "location": "/about/faq/",
-            "text": "F.A.Q.\n\n\nGeneral\n\n\nToDo.\n\n\nPayment Processor\n\n\nWhy are you using Stripe as a payment processor and not PayPal / Braintree / Payment Express or anything else?\n\n\nThere are ultimately two reasons why we decided to go with Stripe.\n\n\nThe first reason we decided on Stripe above all others is because their interfaces for all vested parties is\nexcellent. The end-user experience is the best we have come across. Their dashboard for the account itself is clean,\ncrisp, and clear. And finally the docs, API, and provided libraries for the developer is the best in class.\n\n\nThe second reason we decided to concentrate on only one payment processor is because they all provide their service in\nsubtly different ways even though they all provide a similar service.  Most of the complicated logic in our app lies\nwith talking to the payment processor, hence by keeping us focussed on only one we can keep our application smaller and\nhopefully more reliable.\n\n\nWhat do I need to do to set myself up with Stripe?\n\n\nPlease see their documentation for more details. (ToDo: provide a link here.)\n\n\n(Ends)",
+            "text": "F.A.Q.\n\n\nGeneral\n\n\nToDo.\n\n\nPayment Processor\n\n\nWhy are you using Stripe as a payment processor and not PayPal / Braintree / Payment Express or anything else?\n\n\nThere are ultimately two reasons why we decided to go with Stripe.\n\n\nThe first reason we decided on Stripe above all others is because their interfaces for all vested parties is\nexcellent. The end-user experience is the best we have come across. Their dashboard for the account itself is clean,\ncrisp, and clear. And finally the docs, API, and provided libraries for the developer is the best in class.\n\n\nThe second reason we decided to concentrate on only one payment processor is because they all provide their service in\nsubtly different ways even though they all provide a similar service.  Most of the complicated logic in our app lies\nwith talking to the payment processor, hence by keeping us focussed on only one we can keep our application smaller,\nmore stable, and as reliable as we can.\n\n\nWhat do I need to do to set myself up with Stripe?\n\n\nPlease see their documentation for more details. (ToDo: provide a link here.)\n\n\n(Ends)",
             "title": "FAQ"
         },
         {
@@ -167,7 +167,7 @@
         },
         {
             "location": "/about/faq/#payment-processor",
-            "text": "Why are you using Stripe as a payment processor and not PayPal / Braintree / Payment Express or anything else?  There are ultimately two reasons why we decided to go with Stripe.  The first reason we decided on Stripe above all others is because their interfaces for all vested parties is\nexcellent. The end-user experience is the best we have come across. Their dashboard for the account itself is clean,\ncrisp, and clear. And finally the docs, API, and provided libraries for the developer is the best in class.  The second reason we decided to concentrate on only one payment processor is because they all provide their service in\nsubtly different ways even though they all provide a similar service.  Most of the complicated logic in our app lies\nwith talking to the payment processor, hence by keeping us focussed on only one we can keep our application smaller and\nhopefully more reliable.  What do I need to do to set myself up with Stripe?  Please see their documentation for more details. (ToDo: provide a link here.)  (Ends)",
+            "text": "Why are you using Stripe as a payment processor and not PayPal / Braintree / Payment Express or anything else?  There are ultimately two reasons why we decided to go with Stripe.  The first reason we decided on Stripe above all others is because their interfaces for all vested parties is\nexcellent. The end-user experience is the best we have come across. Their dashboard for the account itself is clean,\ncrisp, and clear. And finally the docs, API, and provided libraries for the developer is the best in class.  The second reason we decided to concentrate on only one payment processor is because they all provide their service in\nsubtly different ways even though they all provide a similar service.  Most of the complicated logic in our app lies\nwith talking to the payment processor, hence by keeping us focussed on only one we can keep our application smaller,\nmore stable, and as reliable as we can.  What do I need to do to set myself up with Stripe?  Please see their documentation for more details. (ToDo: provide a link here.)  (Ends)",
             "title": "Payment Processor"
         },
         {
@@ -182,13 +182,68 @@
         },
         {
             "location": "/about/contributing/",
-            "text": "Contributing\n\n\n(Ends)",
+            "text": "Contributing\n\n\nWe use a standard fork, branch, commit, push, pull-request model on our repositories hosted on GitLab.\n\n\nWe also mirror our code on GitHub but issues and pull-requests are not accepted there, however you may fork our repo on\nthere if it is easier for you to do so.\n\n\nProcess\n\n\nIn general it is best to open an issue prior to starting work on a new feature or bug. Once done you'll have an issue\nnumber to group your work under.\n\n\nToDo.\n\n\nRepositories\n\n\n\n\ndonatinator\n - the server code needed to run your own donor portal\n\n\ndocs\n - documentation related to any part of this project\n\n\nrfcs\n - RFCs for large change-requests\n\n\n\n\n(Ends)",
             "title": "Contributing"
         },
         {
             "location": "/about/contributing/#contributing",
-            "text": "(Ends)",
+            "text": "We use a standard fork, branch, commit, push, pull-request model on our repositories hosted on GitLab.  We also mirror our code on GitHub but issues and pull-requests are not accepted there, however you may fork our repo on\nthere if it is easier for you to do so.",
             "title": "Contributing"
+        },
+        {
+            "location": "/about/contributing/#process",
+            "text": "In general it is best to open an issue prior to starting work on a new feature or bug. Once done you'll have an issue\nnumber to group your work under.  ToDo.",
+            "title": "Process"
+        },
+        {
+            "location": "/about/contributing/#repositories",
+            "text": "donatinator  - the server code needed to run your own donor portal  docs  - documentation related to any part of this project  rfcs  - RFCs for large change-requests   (Ends)",
+            "title": "Repositories"
+        },
+        {
+            "location": "/about/code-of-conduct/",
+            "text": "Code of Conduct\n\n\nOur Pledge\n\n\nIn the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\nnationality, personal appearance, race, religion, or sexual identity and\norientation.\n\n\nOur Standards\n\n\nExamples of behavior that contributes to creating a positive environment\ninclude:\n\n\n\n\nUsing welcoming and inclusive language\n\n\nBeing respectful of differing viewpoints and experiences\n\n\nGracefully accepting constructive criticism\n\n\nFocusing on what is best for the community\n\n\nShowing empathy towards other community members\n\n\n\n\nExamples of unacceptable behavior by participants include:\n\n\n\n\nThe use of sexualized language or imagery and unwelcome sexual attention or\n  advances\n\n\nTrolling, insulting/derogatory comments, and personal or political attacks\n\n\nPublic or private harassment\n\n\nPublishing others' private information, such as a physical or electronic\n  address, without explicit permission\n\n\nOther conduct which could reasonably be considered inappropriate in a\n  professional setting\n\n\n\n\nOur Responsibilities\n\n\nProject maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.\n\n\nProject maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.\n\n\nScope\n\n\nThis Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.\n\n\nEnforcement\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at \nandychilton@gmail.com\n. All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.\n\n\nProject maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.\n\n\nAttribution\n\n\nThis Code of Conduct is adapted from the\n\nContributor Covenant\n,\nversion 1.4, available at\n\nhttps://www.contributor-covenant.org/version/1/4/code-of-conduct/\n.\n\n\nThis Page\n\n\nThis copy of the code of conduct lives in the\n\ndocs\n\nrepository and is published on the docs site at\n\nCode of Conduct\n\nfor viewing.",
+            "title": "Code of Conduct"
+        },
+        {
+            "location": "/about/code-of-conduct/#code-of-conduct",
+            "text": "",
+            "title": "Code of Conduct"
+        },
+        {
+            "location": "/about/code-of-conduct/#our-pledge",
+            "text": "In the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\nnationality, personal appearance, race, religion, or sexual identity and\norientation.",
+            "title": "Our Pledge"
+        },
+        {
+            "location": "/about/code-of-conduct/#our-standards",
+            "text": "Examples of behavior that contributes to creating a positive environment\ninclude:   Using welcoming and inclusive language  Being respectful of differing viewpoints and experiences  Gracefully accepting constructive criticism  Focusing on what is best for the community  Showing empathy towards other community members   Examples of unacceptable behavior by participants include:   The use of sexualized language or imagery and unwelcome sexual attention or\n  advances  Trolling, insulting/derogatory comments, and personal or political attacks  Public or private harassment  Publishing others' private information, such as a physical or electronic\n  address, without explicit permission  Other conduct which could reasonably be considered inappropriate in a\n  professional setting",
+            "title": "Our Standards"
+        },
+        {
+            "location": "/about/code-of-conduct/#our-responsibilities",
+            "text": "Project maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.  Project maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.",
+            "title": "Our Responsibilities"
+        },
+        {
+            "location": "/about/code-of-conduct/#scope",
+            "text": "This Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.",
+            "title": "Scope"
+        },
+        {
+            "location": "/about/code-of-conduct/#enforcement",
+            "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at  andychilton@gmail.com . All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.  Project maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.",
+            "title": "Enforcement"
+        },
+        {
+            "location": "/about/code-of-conduct/#attribution",
+            "text": "This Code of Conduct is adapted from the Contributor Covenant ,\nversion 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct/ .",
+            "title": "Attribution"
+        },
+        {
+            "location": "/about/code-of-conduct/#this-page",
+            "text": "This copy of the code of conduct lives in the docs \nrepository and is published on the docs site at Code of Conduct \nfor viewing.",
+            "title": "This Page"
         },
         {
             "location": "/about/license/",
