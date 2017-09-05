@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <meta name="author" content="Andrew Chilton">
+        <link rel="canonical" href="http://donatinator.org/about/rfcs/">
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+
+	<title>RFCs - The Donatinator</title>
+
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.0.3.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+
+        
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            
+
+            <!-- Main title -->
+            <a class="navbar-brand" href="../..">The Donatinator</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+            
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                
+                
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">User Guide <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../user/getting-started/">Getting Started</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../user/single-donations/">Single Donations</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../user/recurring-donations/">Recurring Donations</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../user/campaigns/">Campaigns</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../user/fundraising/">Fundraising</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Configuration <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../config/environment/">Environment</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../config/themes/">Themes</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../config/plugins/">Plugins</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Technical Guide <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../../tech/considerations/">Considerations</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../tech/hosting/">Hosting</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../../tech/terminology/">Terminology</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                        
+                            
+<li >
+    <a href="../why/">Why a Donor Portal?</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../faq/">FAQ</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../release-notes/">Release Notes</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../contributing/">Contributing</a>
+</li>
+
+                        
+                            
+<li class="active">
+    <a href="./">RFCs</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../code-of-conduct/">Code of Conduct</a>
+</li>
+
+                        
+                            
+<li >
+    <a href="../license/">License</a>
+</li>
+
+                        
+                        </ul>
+                    </li>
+                
+                
+                </ul>
+            
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                
+                    <li >
+                        <a rel="next" href="../contributing/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../code-of-conduct/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                
+                
+                    <li>
+                        <a href="https://github.com/donatinator/donatinator">
+                            
+                                <i class="fa fa-github"></i>
+                            
+                            GitHub
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+            
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+    
+        <li class="main active"><a href="#donatinator-rfcs">Donatinator RFCs</a></li>
+        
+            <li><a href="#why-we-have-this-process">Why we have this process</a></li>
+        
+            <li><a href="#when-you-need-to-follow-this-process">When you need to follow this process</a></li>
+        
+            <li><a href="#gathering-feedback">Gathering Feedback</a></li>
+        
+            <li><a href="#the-rfc-process">The RFC Process</a></li>
+        
+            <li><a href="#the-rfc-life-cycle">The RFC Life-Cycle</a></li>
+        
+            <li><a href="#implementing-an-rfc">Implementing an RFC</a></li>
+        
+            <li><a href="#reviewing-rfcs">Reviewing RFC's</a></li>
+        
+            <li><a href="#credits">Credits</a></li>
+        
+    
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="donatinator-rfcs">Donatinator RFCs</h1>
+<p>Many features, bug fixes or documentation improvements can be implemented and reviewed via the normal GitLab pull
+request workflow (see <a href="https://donatinator.org/about/contributing/">Contributing</a> for more information).</p>
+<p>However some changes are more substantial or backwards incompatible.</p>
+<p>The "RFC" (request for comments) process is intended to provide a consistent and controlled path for these features to
+enter the project.</p>
+<h2 id="why-we-have-this-process">Why we have this process</h2>
+<p>In the case where a feature or bug fix is substantial or is backwards incompatible, then it is harder to determine both
+the viability of the changes or whether they are actually a good idea. To be able to do this, we need multiple members
+of the community to read, review, and comment on the proposal.</p>
+<p>This process is intended to help reach consensus on any feature that would affect the core ability to accept both
+single and recurring donations.</p>
+<p>Only by doing this can we ensure the best outcome for everyone using The Donatinator.</p>
+<h2 id="when-you-need-to-follow-this-process">When you need to follow this process</h2>
+<p>You need to follow this process if you intend to make changes to any of The Donatinators code or docs that result in a
+significant change or a backwards incompatible change. This may include some of the following though this list is not
+exhaustive:</p>
+<ul>
+<li>When changing web client code which helps accept donations.</li>
+<li>When calling a Stripe API that deals with any kind of charge and/or subscription.</li>
+<li>When performing a destructive database schema change.</li>
+</ul>
+<p>Some changes do not require an RFC and those may go through the regular pull request process. If a PR is deemed to be
+significant or backwards incompatible, then the issue may be closed with a polite request suggesting an RFC is raised
+instead.</p>
+<h2 id="gathering-feedback">Gathering Feedback</h2>
+<p>It's often helpful to gather feedback before diving too deeply into your new concept, just in case someone knows how to
+solve it with the current release or with a small easy patch. This can save time for all concerned.</p>
+<p>Once you're convinced that this feature <strong>is</strong> required, it's also helpful to obtain feedback prior to submitting your
+RFC. You may open an issue in the <a href="https://gitlab.com/donatinator/rfcs">RFC repo</a> to start a high-level discussion,
+with the goal of eventually opening an RFC pull request with all the details gathered together in one document.</p>
+<h2 id="the-rfc-process">The RFC Process</h2>
+<p>There is a pre-process (hinted at above) and then the process itself.</p>
+<p>As hinted at above, you can perform initial data gathering, obtain feedback, and perform some analysis. You may create
+an issue so that everyone on the project can see it and help you gather what you need. This step is optional. You may
+go straight into the process itself.</p>
+<ul>
+<li>Fork the <a href="https://gitlab.com/donatinator/rfcs">RFC repo</a> repo</li>
+<li>Copy <code>YYYYMMDD-template.md</code> file to <code>1-incoming/20170906-my-feature.md</code> (fill in todays date and <code>my-feature</code>
+  describes your feature in a few words)</li>
+<li>Fill in the RFC. Put care into the details: <strong>RFCs that do not present convincing motivation, demonstrate
+  understanding of the impact of the design, or are disingenuous about the drawbacks or alternatives tend to be
+  poorly-received</strong>.</li>
+<li>Submit a pull request (with a 'Closes #nnn' of the issue number used for initial feedback).</li>
+<li>As an RFC in the <code>reviewing</code> stage, it will be moved from <code>1-incoming</code> to <code>2-reviewing</code> under a new pull request for
+  discussion. It will now receive design feedback from the larger community. This PR will link back to the initial data
+  gathering ticket, as well as the pull request ticket.</li>
+<li>Under the new <code>reviewing</code> issue, build consensus and integrate feedback. RFCs that have broad support are much more
+  likely to make progress than those that don't receive any comments. The author should be prepared to revise their
+  pull request with additional commits in response to any feedback received.</li>
+<li>Eventually, the core team will decide whether the RFC is a candidate for inclusion into The Donatinator.</li>
+<li>RFCs that are candidates for inclusion in The Donatinator will enter a "final comment period" lasting 7 days. The
+  beginning of this period will be signaled with a comment such as "Final comment period." and label on the RFC's pull
+  request. Furthermore, <a href="https://twitter.com/TheDonatinator">The Donatinator's official Twitter account</a> will post a
+  tweet about the RFC to attract the community's attention.</li>
+<li>An RFC can be modified based upon feedback from the core team and community. Significant modifications may trigger a
+  new final comment period.</li>
+<li>An RFC may be rejected by the core team after public discussion has settled and comments have been made summarizing
+  the rationale for rejection. A member of the core team should then close the RFC's associated pull request.</li>
+<li>An RFC may be accepted at the close of its final comment period. A core team member will merge the RFC's associated
+  pull request, at which point the RFC will become 'active'.</li>
+</ul>
+<p>If accepted, the <code>reviewing</code> PR will be updated to move the RFC to <code>3-accepted</code>. If not it'll be moved to
+<code>5-rejected</code>. Once the RFC has been accepted, anyone (not just the original proposer) can start to implement it. If the RFC is being actively worked on, it'll stay in the <code>3-accepted</code> stage.</p>
+<h2 id="the-rfc-life-cycle">The RFC Life-Cycle</h2>
+<p>Once an RFC becomes active then authors may implement it and submit the feature as a pull request to
+<a href="https://gitlab.com/donatinator/donatinator">The Donatinator repo</a>. Moving to the <code>accepted</code> state is not a rubber
+stamp, and in particular still does not mean the feature will ultimately be merged; it does mean that the core team has
+agreed to it in principle and are amenable to merging it.</p>
+<p>Furthermore, the fact that a given RFC has been accepted implies nothing about what priority is assigned to its
+implementation, nor whether anybody is currently working on it. If you're interested, it is worth asking around to see
+if anybody has an active interest in the RFC at any level.</p>
+<p>Modifications to accepted/in-progress RFC's can be done in followup PR's. We strive to write each RFC in a manner that
+it will reflect the final design of the feature; but the nature of the process means that we cannot expect every merged
+RFC to actually reflect what the end result will be at the time of the next major release; therefore we try to keep
+each RFC document somewhat in sync with the language feature as planned, tracking such changes via followup pull
+requests to the document.</p>
+<h2 id="implementing-an-rfc">Implementing an RFC</h2>
+<p>The author of an RFC is not obligated to implement it. Of course, the RFC author (like any other developer) is welcome
+to post an implementation for review after the RFC has been accepted.</p>
+<p>If you are interested in working on the implementation for an 'active' RFC, but cannot determine if someone else is
+already working on it, feel free to ask (e.g. by leaving a comment on the associated issue).</p>
+<h2 id="reviewing-rfcs">Reviewing RFC's</h2>
+<p>At regular intervals, the core team will attempt to review whatever is currently in the RFC repo. This may involve
+moving things along, providing feedback, or rejecting them entirely.</p>
+<h2 id="credits">Credits</h2>
+<p>Thanks to the following projects for having RFC processes that we were able to build on for our own process:</p>
+<ul>
+<li>https://github.com/yarnpkg/rfcs</li>
+<li>https://github.com/rust-lang/rfcs</li>
+<li>https://github.com/emberjs/rfcs</li>
+</ul>
+<p>(Ends)</p></div>
+            
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            
+                <p>Copyright &copy; 2017 <a href="https://twitter.com/andychilton">Andrew Chilton</a>.</p>
+            
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+
+        <script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                        <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            From here you can search these documents. Enter
+                            your search terms below.
+                        </p>
+                        <form role="form">
+                            <div class="form-group">
+                                <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                            </div>
+                        </form>
+                        <div id="mkdocs-search-results"></div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
