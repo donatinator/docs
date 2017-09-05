@@ -26,6 +26,7 @@ pages:
     - FAQ: about/faq.md
     - Release Notes: about/release-notes.md
     - Contributing: about/contributing.md
+    - RFCs: about/rfcs.md
     - Code of Conduct: about/code-of-conduct.md
     - License: about/license.md
 

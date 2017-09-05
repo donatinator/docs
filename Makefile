@@ -9,9 +9,12 @@ build:
 
 release: build
 	git add html
-	git commit -m 'New Release'
+	git commit -m 'Build'
 
 deploy: release
+	netlify deploy
+
+deploy-only:
 	netlify deploy
 
 .PHONY: serve build
