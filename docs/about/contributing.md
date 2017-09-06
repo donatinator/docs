@@ -18,4 +18,9 @@ ToDo.
 * [docs](https://gitlab.com/donatinator/docs) - documentation related to any part of this project
 * [rfcs](https://gitlab.com/donatinator/rfcs) - RFCs for large change-requests
 
+## License
+
+By contributing to The Donatinator, you agree that your contributions will be licensed under the same license as
+itself, the [AGPLv3](/about/license/).
+
 (Ends)

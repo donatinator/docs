@@ -1,7 +1,7 @@
 # Donatinator RFCs #
 
 Many features, bug fixes or documentation improvements can be implemented and reviewed via the normal GitLab pull
-request workflow (see [Contributing](https://donatinator.org/about/contributing/) for more information).
+request workflow (see [Contributing](/about/contributing/) for more information).
 
 However some changes are more substantial or backwards incompatible.
 
