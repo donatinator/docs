@@ -182,7 +182,7 @@
         },
         {
             "location": "/about/contributing/",
-            "text": "Contributing\n\n\nWe use a standard fork, branch, commit, push, pull-request model on our repositories hosted on GitLab.\n\n\nWe also mirror our code on GitHub but issues and pull-requests are not accepted there, however you may fork our repo on\nthere if it is easier for you to do so.\n\n\nProcess\n\n\nIn general it is best to open an issue prior to starting work on a new feature or bug. Once done you'll have an issue\nnumber to group your work under.\n\n\nToDo.\n\n\nRepositories\n\n\n\n\ndonatinator\n - the server code needed to run your own donor portal\n\n\ndocs\n - documentation related to any part of this project\n\n\nrfcs\n - RFCs for large change-requests\n\n\n\n\n(Ends)",
+            "text": "Contributing\n\n\nWe use a standard fork, branch, commit, push, pull-request model on our repositories hosted on GitLab.\n\n\nWe also mirror our code on GitHub but issues and pull-requests are not accepted there, however you may fork our repo on\nthere if it is easier for you to do so.\n\n\nProcess\n\n\nIn general it is best to open an issue prior to starting work on a new feature or bug. Once done you'll have an issue\nnumber to group your work under.\n\n\nToDo.\n\n\nRepositories\n\n\n\n\ndonatinator\n - the server code needed to run your own donor portal\n\n\ndocs\n - documentation related to any part of this project\n\n\nrfcs\n - RFCs for large change-requests\n\n\n\n\nLicense\n\n\nBy contributing to The Donatinator, you agree that your contributions will be licensed under the same license as\nitself, the \nAGPLv3\n.\n\n\n(Ends)",
             "title": "Contributing"
         },
         {
@@ -197,8 +197,13 @@
         },
         {
             "location": "/about/contributing/#repositories",
-            "text": "donatinator  - the server code needed to run your own donor portal  docs  - documentation related to any part of this project  rfcs  - RFCs for large change-requests   (Ends)",
+            "text": "donatinator  - the server code needed to run your own donor portal  docs  - documentation related to any part of this project  rfcs  - RFCs for large change-requests",
             "title": "Repositories"
+        },
+        {
+            "location": "/about/contributing/#license",
+            "text": "By contributing to The Donatinator, you agree that your contributions will be licensed under the same license as\nitself, the  AGPLv3 .  (Ends)",
+            "title": "License"
         },
         {
             "location": "/about/rfcs/",

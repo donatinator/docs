@@ -1,0 +1,73 @@
+
+
+
+
+
+
+
+
+Contributions are always welcome, no matter how large or small. Substantial feature requests should be proposed as an
+[RFC](https://gitlab.com/donatinator/rfcs).
+
+Before contributing, please read the [Code of Conduct](https://donatinator.org/about/code-of-conduct/).
+
+## Pre-Requisites ##
+
+To run Donatinator locally you need 
+
+## Setup ##
+
+There are many ways to setup your environment, however this is the simplest to get something running on your machine.
+
+Pre-requisites:
+
+* node
+* npm
+* a test publishable key and secret key from your Stripe account (
+
+1. Clone the repo
+2. Install dependencies
+3. 
+
+## Setup ##
+
+1. Install yarn on your system: https://yarnpkg.com/en/docs/install
+1. Fork the repo: https://github.com/yarnpkg/yarn
+1. Run the following commands:
+
+```sh
+$ git clone YOUR_YARN_REPO_URL
+$ cd yarn
+$ yarn
+$ yarn run build
+```
+
+## Building
+
+```sh
+$ yarn run build
+```
+
+```sh
+$ yarn run watch
+```
+
+## Testing
+
+```sh
+$ yarn run test
+```
+
+```sh
+$ yarn run lint
+```
+
+## Pull Requests
+
+We actively welcome your pull requests.
+
+1. Fork the repo and create your branch from `master`.
+2. If you've added code that should be tested, add tests.
+3. If you've changed APIs, update the documentation.
+4. Ensure the test suite passes.
+5. Make sure your code lints.
