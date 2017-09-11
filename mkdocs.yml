@@ -3,7 +3,7 @@ site_url: http://donatinator.org
 site_description: A small, simple, secure way to accept Single or Recurring Donations for your charities and non-profits.
 site_author: Andrew Chilton
 
-repo_url: https://github.com/donatinator/donatinator
+repo_url: https://gitlab.com/donatinator/donatinator
 
 pages:
 - Home: index.md
@@ -22,6 +22,8 @@ pages:
     - Considerations: tech/considerations.md
     - Hosting: tech/hosting.md
     - Terminology: tech/terminology.md
+- Project:
+    - RoadMap: project/roadmap.md
 - About:
     - Why a Donor Portal?: about/why.md
     - FAQ: about/faq.md
