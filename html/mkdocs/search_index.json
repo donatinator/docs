@@ -91,34 +91,14 @@
             "title": "Admin"
         },
         {
-            "location": "/config/environment/",
-            "text": "Environment\n\n\n(Ends)",
-            "title": "Environment"
+            "location": "/user/terminology/",
+            "text": "Terminology\n\n\nIn most cases we use the same terminology as other charities or non-profits use. We also try and stick to the same\nterms as what Stripe uses, but sometimes we use alternative terms if it makes more sense. Here we try and demistify\nsome of the terms you may see reguarding online donations.\n\n\n\n\nOne-Off Donation\n\n\na single donation by a person\n\n\n\n\n\n\nPlan\n\n\ndescribes how much should be donated and at what interval\n\n\n\n\n\n\nRecurring Donations\n\n\nsee \nPlan\n\n\n\n\n\n\nSingle Donation\n\n\nsee \nOne-Off Donation\n\n\n\n\n\n\nSubscriber\n (aka 'Supporter', 'Donor', 'Friend')\n\n\nthe person who donates regularly (ie. has a subscription)\n\n\n\n\n\n\nSubscription\n\n\na promise of a regular payment (described by a \nPlan\n) from a \nSubscriber\n\n\n\n\n\n\n\n\n(Ends)",
+            "title": "Terminology"
         },
         {
-            "location": "/config/environment/#environment",
-            "text": "(Ends)",
-            "title": "Environment"
-        },
-        {
-            "location": "/config/themes/",
-            "text": "Themes\n\n\n(Ends)",
-            "title": "Themes"
-        },
-        {
-            "location": "/config/themes/#themes",
-            "text": "(Ends)",
-            "title": "Themes"
-        },
-        {
-            "location": "/config/plugins/",
-            "text": "Plugins\n\n\n(Ends)",
-            "title": "Plugins"
-        },
-        {
-            "location": "/config/plugins/#plugins",
-            "text": "(Ends)",
-            "title": "Plugins"
+            "location": "/user/terminology/#terminology",
+            "text": "In most cases we use the same terminology as other charities or non-profits use. We also try and stick to the same\nterms as what Stripe uses, but sometimes we use alternative terms if it makes more sense. Here we try and demistify\nsome of the terms you may see reguarding online donations.   One-Off Donation  a single donation by a person    Plan  describes how much should be donated and at what interval    Recurring Donations  see  Plan    Single Donation  see  One-Off Donation    Subscriber  (aka 'Supporter', 'Donor', 'Friend')  the person who donates regularly (ie. has a subscription)    Subscription  a promise of a regular payment (described by a  Plan ) from a  Subscriber     (Ends)",
+            "title": "Terminology"
         },
         {
             "location": "/tech/considerations/",
@@ -141,14 +121,44 @@
             "title": "Hosting"
         },
         {
-            "location": "/tech/terminology/",
-            "text": "Terminology\n\n\nIn most cases we use the same terminology as other charities or non-profits use. We also try and stick to the same\nterms as what Stripe uses, but sometimes we use alternative terms if it makes more sense. Here we try and demistify\nsome of the terms you may see reguarding online donations.\n\n\n\n\nOne-Off Donation\n\n\na single donation by a person\n\n\n\n\n\n\nPlan\n\n\ndescribes how much should be donated and at what interval\n\n\n\n\n\n\nRecurring Donations\n\n\nsee \nPlan\n\n\n\n\n\n\nSingle Donation\n\n\nsee \nOne-Off Donation\n\n\n\n\n\n\nSubscriber\n (aka 'Supporter', 'Donor', 'Friend')\n\n\nthe person who donates regularly (ie. has a subscription)\n\n\n\n\n\n\nSubscription\n\n\na promise of a regular payment (described by a \nPlan\n) from a \nSubscriber\n\n\n\n\n\n\n\n\n(Ends)",
-            "title": "Terminology"
+            "location": "/tech/environment/",
+            "text": "Environment\n\n\n(Ends)",
+            "title": "Environment"
         },
         {
-            "location": "/tech/terminology/#terminology",
-            "text": "In most cases we use the same terminology as other charities or non-profits use. We also try and stick to the same\nterms as what Stripe uses, but sometimes we use alternative terms if it makes more sense. Here we try and demistify\nsome of the terms you may see reguarding online donations.   One-Off Donation  a single donation by a person    Plan  describes how much should be donated and at what interval    Recurring Donations  see  Plan    Single Donation  see  One-Off Donation    Subscriber  (aka 'Supporter', 'Donor', 'Friend')  the person who donates regularly (ie. has a subscription)    Subscription  a promise of a regular payment (described by a  Plan ) from a  Subscriber     (Ends)",
-            "title": "Terminology"
+            "location": "/tech/environment/#environment",
+            "text": "(Ends)",
+            "title": "Environment"
+        },
+        {
+            "location": "/tech/themes/",
+            "text": "Themes\n\n\n(Ends)",
+            "title": "Themes"
+        },
+        {
+            "location": "/tech/themes/#themes",
+            "text": "(Ends)",
+            "title": "Themes"
+        },
+        {
+            "location": "/tech/plugins/",
+            "text": "Plugins\n\n\n(Ends)",
+            "title": "Plugins"
+        },
+        {
+            "location": "/tech/plugins/#plugins",
+            "text": "(Ends)",
+            "title": "Plugins"
+        },
+        {
+            "location": "/project/features/",
+            "text": "Features\n\n\n(Ends)",
+            "title": "Features"
+        },
+        {
+            "location": "/project/features/#features",
+            "text": "(Ends)",
+            "title": "Features"
         },
         {
             "location": "/project/roadmap/",
@@ -174,6 +184,156 @@
             "location": "/project/roadmap/#long-term-6-12-months",
             "text": "ToDo   (Ends)",
             "title": "Long Term : 6-12 months"
+        },
+        {
+            "location": "/project/release-notes/",
+            "text": "Release Notes\n\n\n(Ends)",
+            "title": "Release Notes"
+        },
+        {
+            "location": "/project/release-notes/#release-notes",
+            "text": "(Ends)",
+            "title": "Release Notes"
+        },
+        {
+            "location": "/project/contributing/",
+            "text": "Contributing\n\n\nWe use a standard fork, branch, commit, push, pull-request model on our repositories hosted on GitLab.\n\n\nWe also mirror our code on GitHub but issues and pull-requests are not accepted there, however you may fork our repo on\nthere if it is easier for you to do so.\n\n\nProcess\n\n\nIn general it is best to open an issue prior to starting work on a new feature or bug. Once done you'll have an issue\nnumber to group your work under.\n\n\nToDo.\n\n\nRepositories\n\n\n\n\ndonatinator\n - the server code needed to run your own donor portal\n\n\ndocs\n - documentation related to any part of this project\n\n\nrfcs\n - RFCs for large change-requests\n\n\n\n\nLicense\n\n\nBy contributing to The Donatinator, you agree that your contributions will be licensed under the same license as\nitself, the \nAGPLv3\n.\n\n\n(Ends)",
+            "title": "Contributing"
+        },
+        {
+            "location": "/project/contributing/#contributing",
+            "text": "We use a standard fork, branch, commit, push, pull-request model on our repositories hosted on GitLab.  We also mirror our code on GitHub but issues and pull-requests are not accepted there, however you may fork our repo on\nthere if it is easier for you to do so.",
+            "title": "Contributing"
+        },
+        {
+            "location": "/project/contributing/#process",
+            "text": "In general it is best to open an issue prior to starting work on a new feature or bug. Once done you'll have an issue\nnumber to group your work under.  ToDo.",
+            "title": "Process"
+        },
+        {
+            "location": "/project/contributing/#repositories",
+            "text": "donatinator  - the server code needed to run your own donor portal  docs  - documentation related to any part of this project  rfcs  - RFCs for large change-requests",
+            "title": "Repositories"
+        },
+        {
+            "location": "/project/contributing/#license",
+            "text": "By contributing to The Donatinator, you agree that your contributions will be licensed under the same license as\nitself, the  AGPLv3 .  (Ends)",
+            "title": "License"
+        },
+        {
+            "location": "/project/rfcs/",
+            "text": "Donatinator RFCs\n\n\nMany features, bug fixes or documentation improvements can be implemented and reviewed via the normal GitLab pull\nrequest workflow (see \nContributing\n for more information).\n\n\nHowever some changes are more substantial or backwards incompatible.\n\n\nThe \"RFC\" (request for comments) process is intended to provide a consistent and controlled path for these features to\nenter the project.\n\n\nWhy we have this process\n\n\nIn the case where a feature or bug fix is substantial or is backwards incompatible, then it is harder to determine both\nthe viability of the changes or whether they are actually a good idea. To be able to do this, we need multiple members\nof the community to read, review, and comment on the proposal.\n\n\nThis process is intended to help reach consensus on any feature that would affect the core ability to accept both\nsingle and recurring donations.\n\n\nOnly by doing this can we ensure the best outcome for everyone using The Donatinator.\n\n\nWhen you need to follow this process\n\n\nYou need to follow this process if you intend to make changes to any of The Donatinators code or docs that result in a\nsignificant change or a backwards incompatible change. This may include some of the following though this list is not\nexhaustive:\n\n\n\n\nWhen changing web client code which helps accept donations.\n\n\nWhen calling a Stripe API that deals with any kind of charge and/or subscription.\n\n\nWhen performing a destructive database schema change.\n\n\n\n\nSome changes do not require an RFC and those may go through the regular pull request process. If a PR is deemed to be\nsignificant or backwards incompatible, then the issue may be closed with a polite request suggesting an RFC is raised\ninstead.\n\n\nGathering Feedback\n\n\nIt's often helpful to gather feedback before diving too deeply into your new concept, just in case someone knows how to\nsolve it with the current release or with a small easy patch. This can save time for all concerned.\n\n\nOnce you're convinced that this feature \nis\n required, it's also helpful to obtain feedback prior to submitting your\nRFC. You may open an issue in the \nRFC repo\n to start a high-level discussion,\nwith the goal of eventually opening an RFC pull request with all the details gathered together in one document.\n\n\nThe RFC Process\n\n\nThere is a pre-process (hinted at above) and then the process itself.\n\n\nAs hinted at above, you can perform initial data gathering, obtain feedback, and perform some analysis. You may create\nan issue so that everyone on the project can see it and help you gather what you need. This step is optional. You may\ngo straight into the process itself.\n\n\n\n\nFork the \nRFC repo\n repo\n\n\nCopy \nYYYYMMDD-template.md\n file to \n1-incoming/20170906-my-feature.md\n (fill in todays date and \nmy-feature\n\n  describes your feature in a few words)\n\n\nFill in the RFC. Put care into the details: \nRFCs that do not present convincing motivation, demonstrate\n  understanding of the impact of the design, or are disingenuous about the drawbacks or alternatives tend to be\n  poorly-received\n.\n\n\nSubmit a pull request (with a 'Closes #nnn' of the issue number used for initial feedback).\n\n\nAs an RFC in the \nreviewing\n stage, it will be moved from \n1-incoming\n to \n2-reviewing\n under a new pull request for\n  discussion. It will now receive design feedback from the larger community. This PR will link back to the initial data\n  gathering ticket, as well as the pull request ticket.\n\n\nUnder the new \nreviewing\n issue, build consensus and integrate feedback. RFCs that have broad support are much more\n  likely to make progress than those that don't receive any comments. The author should be prepared to revise their\n  pull request with additional commits in response to any feedback received.\n\n\nEventually, the core team will decide whether the RFC is a candidate for inclusion into The Donatinator.\n\n\nRFCs that are candidates for inclusion in The Donatinator will enter a \"final comment period\" lasting 7 days. The\n  beginning of this period will be signaled with a comment such as \"Final comment period.\" and label on the RFC's pull\n  request. Furthermore, \nThe Donatinator's official Twitter account\n will post a\n  tweet about the RFC to attract the community's attention.\n\n\nAn RFC can be modified based upon feedback from the core team and community. Significant modifications may trigger a\n  new final comment period.\n\n\nAn RFC may be rejected by the core team after public discussion has settled and comments have been made summarizing\n  the rationale for rejection. A member of the core team should then close the RFC's associated pull request.\n\n\nAn RFC may be accepted at the close of its final comment period. A core team member will merge the RFC's associated\n  pull request, at which point the RFC will become 'active'.\n\n\n\n\nIf accepted, the \nreviewing\n PR will be updated to move the RFC to \n3-accepted\n. If not it'll be moved to\n\n5-rejected\n. Once the RFC has been accepted, anyone (not just the original proposer) can start to implement it. If the RFC is being actively worked on, it'll stay in the \n3-accepted\n stage.\n\n\nThe RFC Life-Cycle\n\n\nOnce an RFC becomes active then authors may implement it and submit the feature as a pull request to\n\nThe Donatinator repo\n. Moving to the \naccepted\n state is not a rubber\nstamp, and in particular still does not mean the feature will ultimately be merged; it does mean that the core team has\nagreed to it in principle and are amenable to merging it.\n\n\nFurthermore, the fact that a given RFC has been accepted implies nothing about what priority is assigned to its\nimplementation, nor whether anybody is currently working on it. If you're interested, it is worth asking around to see\nif anybody has an active interest in the RFC at any level.\n\n\nModifications to accepted/in-progress RFC's can be done in followup PR's. We strive to write each RFC in a manner that\nit will reflect the final design of the feature; but the nature of the process means that we cannot expect every merged\nRFC to actually reflect what the end result will be at the time of the next major release; therefore we try to keep\neach RFC document somewhat in sync with the language feature as planned, tracking such changes via followup pull\nrequests to the document.\n\n\nImplementing an RFC\n\n\nThe author of an RFC is not obligated to implement it. Of course, the RFC author (like any other developer) is welcome\nto post an implementation for review after the RFC has been accepted.\n\n\nIf you are interested in working on the implementation for an 'active' RFC, but cannot determine if someone else is\nalready working on it, feel free to ask (e.g. by leaving a comment on the associated issue).\n\n\nReviewing RFC's\n\n\nAt regular intervals, the core team will attempt to review whatever is currently in the RFC repo. This may involve\nmoving things along, providing feedback, or rejecting them entirely.\n\n\nCredits\n\n\nThanks to the following projects for having RFC processes that we were able to build on for our own process:\n\n\n\n\nhttps://github.com/yarnpkg/rfcs\n\n\nhttps://github.com/rust-lang/rfcs\n\n\nhttps://github.com/emberjs/rfcs\n\n\n\n\n(Ends)",
+            "title": "RFCs"
+        },
+        {
+            "location": "/project/rfcs/#donatinator-rfcs",
+            "text": "Many features, bug fixes or documentation improvements can be implemented and reviewed via the normal GitLab pull\nrequest workflow (see  Contributing  for more information).  However some changes are more substantial or backwards incompatible.  The \"RFC\" (request for comments) process is intended to provide a consistent and controlled path for these features to\nenter the project.",
+            "title": "Donatinator RFCs"
+        },
+        {
+            "location": "/project/rfcs/#why-we-have-this-process",
+            "text": "In the case where a feature or bug fix is substantial or is backwards incompatible, then it is harder to determine both\nthe viability of the changes or whether they are actually a good idea. To be able to do this, we need multiple members\nof the community to read, review, and comment on the proposal.  This process is intended to help reach consensus on any feature that would affect the core ability to accept both\nsingle and recurring donations.  Only by doing this can we ensure the best outcome for everyone using The Donatinator.",
+            "title": "Why we have this process"
+        },
+        {
+            "location": "/project/rfcs/#when-you-need-to-follow-this-process",
+            "text": "You need to follow this process if you intend to make changes to any of The Donatinators code or docs that result in a\nsignificant change or a backwards incompatible change. This may include some of the following though this list is not\nexhaustive:   When changing web client code which helps accept donations.  When calling a Stripe API that deals with any kind of charge and/or subscription.  When performing a destructive database schema change.   Some changes do not require an RFC and those may go through the regular pull request process. If a PR is deemed to be\nsignificant or backwards incompatible, then the issue may be closed with a polite request suggesting an RFC is raised\ninstead.",
+            "title": "When you need to follow this process"
+        },
+        {
+            "location": "/project/rfcs/#gathering-feedback",
+            "text": "It's often helpful to gather feedback before diving too deeply into your new concept, just in case someone knows how to\nsolve it with the current release or with a small easy patch. This can save time for all concerned.  Once you're convinced that this feature  is  required, it's also helpful to obtain feedback prior to submitting your\nRFC. You may open an issue in the  RFC repo  to start a high-level discussion,\nwith the goal of eventually opening an RFC pull request with all the details gathered together in one document.",
+            "title": "Gathering Feedback"
+        },
+        {
+            "location": "/project/rfcs/#the-rfc-process",
+            "text": "There is a pre-process (hinted at above) and then the process itself.  As hinted at above, you can perform initial data gathering, obtain feedback, and perform some analysis. You may create\nan issue so that everyone on the project can see it and help you gather what you need. This step is optional. You may\ngo straight into the process itself.   Fork the  RFC repo  repo  Copy  YYYYMMDD-template.md  file to  1-incoming/20170906-my-feature.md  (fill in todays date and  my-feature \n  describes your feature in a few words)  Fill in the RFC. Put care into the details:  RFCs that do not present convincing motivation, demonstrate\n  understanding of the impact of the design, or are disingenuous about the drawbacks or alternatives tend to be\n  poorly-received .  Submit a pull request (with a 'Closes #nnn' of the issue number used for initial feedback).  As an RFC in the  reviewing  stage, it will be moved from  1-incoming  to  2-reviewing  under a new pull request for\n  discussion. It will now receive design feedback from the larger community. This PR will link back to the initial data\n  gathering ticket, as well as the pull request ticket.  Under the new  reviewing  issue, build consensus and integrate feedback. RFCs that have broad support are much more\n  likely to make progress than those that don't receive any comments. The author should be prepared to revise their\n  pull request with additional commits in response to any feedback received.  Eventually, the core team will decide whether the RFC is a candidate for inclusion into The Donatinator.  RFCs that are candidates for inclusion in The Donatinator will enter a \"final comment period\" lasting 7 days. The\n  beginning of this period will be signaled with a comment such as \"Final comment period.\" and label on the RFC's pull\n  request. Furthermore,  The Donatinator's official Twitter account  will post a\n  tweet about the RFC to attract the community's attention.  An RFC can be modified based upon feedback from the core team and community. Significant modifications may trigger a\n  new final comment period.  An RFC may be rejected by the core team after public discussion has settled and comments have been made summarizing\n  the rationale for rejection. A member of the core team should then close the RFC's associated pull request.  An RFC may be accepted at the close of its final comment period. A core team member will merge the RFC's associated\n  pull request, at which point the RFC will become 'active'.   If accepted, the  reviewing  PR will be updated to move the RFC to  3-accepted . If not it'll be moved to 5-rejected . Once the RFC has been accepted, anyone (not just the original proposer) can start to implement it. If the RFC is being actively worked on, it'll stay in the  3-accepted  stage.",
+            "title": "The RFC Process"
+        },
+        {
+            "location": "/project/rfcs/#the-rfc-life-cycle",
+            "text": "Once an RFC becomes active then authors may implement it and submit the feature as a pull request to The Donatinator repo . Moving to the  accepted  state is not a rubber\nstamp, and in particular still does not mean the feature will ultimately be merged; it does mean that the core team has\nagreed to it in principle and are amenable to merging it.  Furthermore, the fact that a given RFC has been accepted implies nothing about what priority is assigned to its\nimplementation, nor whether anybody is currently working on it. If you're interested, it is worth asking around to see\nif anybody has an active interest in the RFC at any level.  Modifications to accepted/in-progress RFC's can be done in followup PR's. We strive to write each RFC in a manner that\nit will reflect the final design of the feature; but the nature of the process means that we cannot expect every merged\nRFC to actually reflect what the end result will be at the time of the next major release; therefore we try to keep\neach RFC document somewhat in sync with the language feature as planned, tracking such changes via followup pull\nrequests to the document.",
+            "title": "The RFC Life-Cycle"
+        },
+        {
+            "location": "/project/rfcs/#implementing-an-rfc",
+            "text": "The author of an RFC is not obligated to implement it. Of course, the RFC author (like any other developer) is welcome\nto post an implementation for review after the RFC has been accepted.  If you are interested in working on the implementation for an 'active' RFC, but cannot determine if someone else is\nalready working on it, feel free to ask (e.g. by leaving a comment on the associated issue).",
+            "title": "Implementing an RFC"
+        },
+        {
+            "location": "/project/rfcs/#reviewing-rfcs",
+            "text": "At regular intervals, the core team will attempt to review whatever is currently in the RFC repo. This may involve\nmoving things along, providing feedback, or rejecting them entirely.",
+            "title": "Reviewing RFC's"
+        },
+        {
+            "location": "/project/rfcs/#credits",
+            "text": "Thanks to the following projects for having RFC processes that we were able to build on for our own process:   https://github.com/yarnpkg/rfcs  https://github.com/rust-lang/rfcs  https://github.com/emberjs/rfcs   (Ends)",
+            "title": "Credits"
+        },
+        {
+            "location": "/project/code-of-conduct/",
+            "text": "Code of Conduct\n\n\nOur Pledge\n\n\nIn the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\nnationality, personal appearance, race, religion, or sexual identity and\norientation.\n\n\nOur Standards\n\n\nExamples of behavior that contributes to creating a positive environment\ninclude:\n\n\n\n\nUsing welcoming and inclusive language\n\n\nBeing respectful of differing viewpoints and experiences\n\n\nGracefully accepting constructive criticism\n\n\nFocusing on what is best for the community\n\n\nShowing empathy towards other community members\n\n\n\n\nExamples of unacceptable behavior by participants include:\n\n\n\n\nThe use of sexualized language or imagery and unwelcome sexual attention or\n  advances\n\n\nTrolling, insulting/derogatory comments, and personal or political attacks\n\n\nPublic or private harassment\n\n\nPublishing others' private information, such as a physical or electronic\n  address, without explicit permission\n\n\nOther conduct which could reasonably be considered inappropriate in a\n  professional setting\n\n\n\n\nOur Responsibilities\n\n\nProject maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.\n\n\nProject maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.\n\n\nScope\n\n\nThis Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.\n\n\nEnforcement\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at \nandychilton@gmail.com\n. All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.\n\n\nProject maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.\n\n\nAttribution\n\n\nThis Code of Conduct is adapted from the\n\nContributor Covenant\n,\nversion 1.4, available at\n\nhttps://www.contributor-covenant.org/version/1/4/code-of-conduct/\n.\n\n\nThis Page\n\n\nThis copy of the code of conduct lives in the\n\ndocs\n\nrepository and is published on the docs site at\n\nCode of Conduct\n\nfor viewing.",
+            "title": "Code of Conduct"
+        },
+        {
+            "location": "/project/code-of-conduct/#code-of-conduct",
+            "text": "",
+            "title": "Code of Conduct"
+        },
+        {
+            "location": "/project/code-of-conduct/#our-pledge",
+            "text": "In the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\nnationality, personal appearance, race, religion, or sexual identity and\norientation.",
+            "title": "Our Pledge"
+        },
+        {
+            "location": "/project/code-of-conduct/#our-standards",
+            "text": "Examples of behavior that contributes to creating a positive environment\ninclude:   Using welcoming and inclusive language  Being respectful of differing viewpoints and experiences  Gracefully accepting constructive criticism  Focusing on what is best for the community  Showing empathy towards other community members   Examples of unacceptable behavior by participants include:   The use of sexualized language or imagery and unwelcome sexual attention or\n  advances  Trolling, insulting/derogatory comments, and personal or political attacks  Public or private harassment  Publishing others' private information, such as a physical or electronic\n  address, without explicit permission  Other conduct which could reasonably be considered inappropriate in a\n  professional setting",
+            "title": "Our Standards"
+        },
+        {
+            "location": "/project/code-of-conduct/#our-responsibilities",
+            "text": "Project maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.  Project maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.",
+            "title": "Our Responsibilities"
+        },
+        {
+            "location": "/project/code-of-conduct/#scope",
+            "text": "This Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.",
+            "title": "Scope"
+        },
+        {
+            "location": "/project/code-of-conduct/#enforcement",
+            "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at  andychilton@gmail.com . All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.  Project maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.",
+            "title": "Enforcement"
+        },
+        {
+            "location": "/project/code-of-conduct/#attribution",
+            "text": "This Code of Conduct is adapted from the Contributor Covenant ,\nversion 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct/ .",
+            "title": "Attribution"
+        },
+        {
+            "location": "/project/code-of-conduct/#this-page",
+            "text": "This copy of the code of conduct lives in the docs \nrepository and is published on the docs site at Code of Conduct \nfor viewing.",
+            "title": "This Page"
+        },
+        {
+            "location": "/project/license/",
+            "text": "Licenses\n\n\nCode\n\n\nAll code is licensed under the \nAGPLv3\n.\n\n\nDocumentation\n\n\nAll documentation is licensed under a \nCreative Commons Attribution-ShareAlike 4.0 International License\n.\n\n\n(Ends)",
+            "title": "License"
+        },
+        {
+            "location": "/project/license/#licenses",
+            "text": "",
+            "title": "Licenses"
+        },
+        {
+            "location": "/project/license/#code",
+            "text": "All code is licensed under the  AGPLv3 .",
+            "title": "Code"
+        },
+        {
+            "location": "/project/license/#documentation",
+            "text": "All documentation is licensed under a  Creative Commons Attribution-ShareAlike 4.0 International License .  (Ends)",
+            "title": "Documentation"
         },
         {
             "location": "/about/why/",
@@ -206,154 +366,14 @@
             "title": "Payment Processor"
         },
         {
-            "location": "/about/release-notes/",
-            "text": "Release Notes\n\n\n(Ends)",
-            "title": "Release Notes"
+            "location": "/about/contact/",
+            "text": "Contact\n\n\n(Ends)",
+            "title": "Contact"
         },
         {
-            "location": "/about/release-notes/#release-notes",
+            "location": "/about/contact/#contact",
             "text": "(Ends)",
-            "title": "Release Notes"
-        },
-        {
-            "location": "/about/contributing/",
-            "text": "Contributing\n\n\nWe use a standard fork, branch, commit, push, pull-request model on our repositories hosted on GitLab.\n\n\nWe also mirror our code on GitHub but issues and pull-requests are not accepted there, however you may fork our repo on\nthere if it is easier for you to do so.\n\n\nProcess\n\n\nIn general it is best to open an issue prior to starting work on a new feature or bug. Once done you'll have an issue\nnumber to group your work under.\n\n\nToDo.\n\n\nRepositories\n\n\n\n\ndonatinator\n - the server code needed to run your own donor portal\n\n\ndocs\n - documentation related to any part of this project\n\n\nrfcs\n - RFCs for large change-requests\n\n\n\n\nLicense\n\n\nBy contributing to The Donatinator, you agree that your contributions will be licensed under the same license as\nitself, the \nAGPLv3\n.\n\n\n(Ends)",
-            "title": "Contributing"
-        },
-        {
-            "location": "/about/contributing/#contributing",
-            "text": "We use a standard fork, branch, commit, push, pull-request model on our repositories hosted on GitLab.  We also mirror our code on GitHub but issues and pull-requests are not accepted there, however you may fork our repo on\nthere if it is easier for you to do so.",
-            "title": "Contributing"
-        },
-        {
-            "location": "/about/contributing/#process",
-            "text": "In general it is best to open an issue prior to starting work on a new feature or bug. Once done you'll have an issue\nnumber to group your work under.  ToDo.",
-            "title": "Process"
-        },
-        {
-            "location": "/about/contributing/#repositories",
-            "text": "donatinator  - the server code needed to run your own donor portal  docs  - documentation related to any part of this project  rfcs  - RFCs for large change-requests",
-            "title": "Repositories"
-        },
-        {
-            "location": "/about/contributing/#license",
-            "text": "By contributing to The Donatinator, you agree that your contributions will be licensed under the same license as\nitself, the  AGPLv3 .  (Ends)",
-            "title": "License"
-        },
-        {
-            "location": "/about/rfcs/",
-            "text": "Donatinator RFCs\n\n\nMany features, bug fixes or documentation improvements can be implemented and reviewed via the normal GitLab pull\nrequest workflow (see \nContributing\n for more information).\n\n\nHowever some changes are more substantial or backwards incompatible.\n\n\nThe \"RFC\" (request for comments) process is intended to provide a consistent and controlled path for these features to\nenter the project.\n\n\nWhy we have this process\n\n\nIn the case where a feature or bug fix is substantial or is backwards incompatible, then it is harder to determine both\nthe viability of the changes or whether they are actually a good idea. To be able to do this, we need multiple members\nof the community to read, review, and comment on the proposal.\n\n\nThis process is intended to help reach consensus on any feature that would affect the core ability to accept both\nsingle and recurring donations.\n\n\nOnly by doing this can we ensure the best outcome for everyone using The Donatinator.\n\n\nWhen you need to follow this process\n\n\nYou need to follow this process if you intend to make changes to any of The Donatinators code or docs that result in a\nsignificant change or a backwards incompatible change. This may include some of the following though this list is not\nexhaustive:\n\n\n\n\nWhen changing web client code which helps accept donations.\n\n\nWhen calling a Stripe API that deals with any kind of charge and/or subscription.\n\n\nWhen performing a destructive database schema change.\n\n\n\n\nSome changes do not require an RFC and those may go through the regular pull request process. If a PR is deemed to be\nsignificant or backwards incompatible, then the issue may be closed with a polite request suggesting an RFC is raised\ninstead.\n\n\nGathering Feedback\n\n\nIt's often helpful to gather feedback before diving too deeply into your new concept, just in case someone knows how to\nsolve it with the current release or with a small easy patch. This can save time for all concerned.\n\n\nOnce you're convinced that this feature \nis\n required, it's also helpful to obtain feedback prior to submitting your\nRFC. You may open an issue in the \nRFC repo\n to start a high-level discussion,\nwith the goal of eventually opening an RFC pull request with all the details gathered together in one document.\n\n\nThe RFC Process\n\n\nThere is a pre-process (hinted at above) and then the process itself.\n\n\nAs hinted at above, you can perform initial data gathering, obtain feedback, and perform some analysis. You may create\nan issue so that everyone on the project can see it and help you gather what you need. This step is optional. You may\ngo straight into the process itself.\n\n\n\n\nFork the \nRFC repo\n repo\n\n\nCopy \nYYYYMMDD-template.md\n file to \n1-incoming/20170906-my-feature.md\n (fill in todays date and \nmy-feature\n\n  describes your feature in a few words)\n\n\nFill in the RFC. Put care into the details: \nRFCs that do not present convincing motivation, demonstrate\n  understanding of the impact of the design, or are disingenuous about the drawbacks or alternatives tend to be\n  poorly-received\n.\n\n\nSubmit a pull request (with a 'Closes #nnn' of the issue number used for initial feedback).\n\n\nAs an RFC in the \nreviewing\n stage, it will be moved from \n1-incoming\n to \n2-reviewing\n under a new pull request for\n  discussion. It will now receive design feedback from the larger community. This PR will link back to the initial data\n  gathering ticket, as well as the pull request ticket.\n\n\nUnder the new \nreviewing\n issue, build consensus and integrate feedback. RFCs that have broad support are much more\n  likely to make progress than those that don't receive any comments. The author should be prepared to revise their\n  pull request with additional commits in response to any feedback received.\n\n\nEventually, the core team will decide whether the RFC is a candidate for inclusion into The Donatinator.\n\n\nRFCs that are candidates for inclusion in The Donatinator will enter a \"final comment period\" lasting 7 days. The\n  beginning of this period will be signaled with a comment such as \"Final comment period.\" and label on the RFC's pull\n  request. Furthermore, \nThe Donatinator's official Twitter account\n will post a\n  tweet about the RFC to attract the community's attention.\n\n\nAn RFC can be modified based upon feedback from the core team and community. Significant modifications may trigger a\n  new final comment period.\n\n\nAn RFC may be rejected by the core team after public discussion has settled and comments have been made summarizing\n  the rationale for rejection. A member of the core team should then close the RFC's associated pull request.\n\n\nAn RFC may be accepted at the close of its final comment period. A core team member will merge the RFC's associated\n  pull request, at which point the RFC will become 'active'.\n\n\n\n\nIf accepted, the \nreviewing\n PR will be updated to move the RFC to \n3-accepted\n. If not it'll be moved to\n\n5-rejected\n. Once the RFC has been accepted, anyone (not just the original proposer) can start to implement it. If the RFC is being actively worked on, it'll stay in the \n3-accepted\n stage.\n\n\nThe RFC Life-Cycle\n\n\nOnce an RFC becomes active then authors may implement it and submit the feature as a pull request to\n\nThe Donatinator repo\n. Moving to the \naccepted\n state is not a rubber\nstamp, and in particular still does not mean the feature will ultimately be merged; it does mean that the core team has\nagreed to it in principle and are amenable to merging it.\n\n\nFurthermore, the fact that a given RFC has been accepted implies nothing about what priority is assigned to its\nimplementation, nor whether anybody is currently working on it. If you're interested, it is worth asking around to see\nif anybody has an active interest in the RFC at any level.\n\n\nModifications to accepted/in-progress RFC's can be done in followup PR's. We strive to write each RFC in a manner that\nit will reflect the final design of the feature; but the nature of the process means that we cannot expect every merged\nRFC to actually reflect what the end result will be at the time of the next major release; therefore we try to keep\neach RFC document somewhat in sync with the language feature as planned, tracking such changes via followup pull\nrequests to the document.\n\n\nImplementing an RFC\n\n\nThe author of an RFC is not obligated to implement it. Of course, the RFC author (like any other developer) is welcome\nto post an implementation for review after the RFC has been accepted.\n\n\nIf you are interested in working on the implementation for an 'active' RFC, but cannot determine if someone else is\nalready working on it, feel free to ask (e.g. by leaving a comment on the associated issue).\n\n\nReviewing RFC's\n\n\nAt regular intervals, the core team will attempt to review whatever is currently in the RFC repo. This may involve\nmoving things along, providing feedback, or rejecting them entirely.\n\n\nCredits\n\n\nThanks to the following projects for having RFC processes that we were able to build on for our own process:\n\n\n\n\nhttps://github.com/yarnpkg/rfcs\n\n\nhttps://github.com/rust-lang/rfcs\n\n\nhttps://github.com/emberjs/rfcs\n\n\n\n\n(Ends)",
-            "title": "RFCs"
-        },
-        {
-            "location": "/about/rfcs/#donatinator-rfcs",
-            "text": "Many features, bug fixes or documentation improvements can be implemented and reviewed via the normal GitLab pull\nrequest workflow (see  Contributing  for more information).  However some changes are more substantial or backwards incompatible.  The \"RFC\" (request for comments) process is intended to provide a consistent and controlled path for these features to\nenter the project.",
-            "title": "Donatinator RFCs"
-        },
-        {
-            "location": "/about/rfcs/#why-we-have-this-process",
-            "text": "In the case where a feature or bug fix is substantial or is backwards incompatible, then it is harder to determine both\nthe viability of the changes or whether they are actually a good idea. To be able to do this, we need multiple members\nof the community to read, review, and comment on the proposal.  This process is intended to help reach consensus on any feature that would affect the core ability to accept both\nsingle and recurring donations.  Only by doing this can we ensure the best outcome for everyone using The Donatinator.",
-            "title": "Why we have this process"
-        },
-        {
-            "location": "/about/rfcs/#when-you-need-to-follow-this-process",
-            "text": "You need to follow this process if you intend to make changes to any of The Donatinators code or docs that result in a\nsignificant change or a backwards incompatible change. This may include some of the following though this list is not\nexhaustive:   When changing web client code which helps accept donations.  When calling a Stripe API that deals with any kind of charge and/or subscription.  When performing a destructive database schema change.   Some changes do not require an RFC and those may go through the regular pull request process. If a PR is deemed to be\nsignificant or backwards incompatible, then the issue may be closed with a polite request suggesting an RFC is raised\ninstead.",
-            "title": "When you need to follow this process"
-        },
-        {
-            "location": "/about/rfcs/#gathering-feedback",
-            "text": "It's often helpful to gather feedback before diving too deeply into your new concept, just in case someone knows how to\nsolve it with the current release or with a small easy patch. This can save time for all concerned.  Once you're convinced that this feature  is  required, it's also helpful to obtain feedback prior to submitting your\nRFC. You may open an issue in the  RFC repo  to start a high-level discussion,\nwith the goal of eventually opening an RFC pull request with all the details gathered together in one document.",
-            "title": "Gathering Feedback"
-        },
-        {
-            "location": "/about/rfcs/#the-rfc-process",
-            "text": "There is a pre-process (hinted at above) and then the process itself.  As hinted at above, you can perform initial data gathering, obtain feedback, and perform some analysis. You may create\nan issue so that everyone on the project can see it and help you gather what you need. This step is optional. You may\ngo straight into the process itself.   Fork the  RFC repo  repo  Copy  YYYYMMDD-template.md  file to  1-incoming/20170906-my-feature.md  (fill in todays date and  my-feature \n  describes your feature in a few words)  Fill in the RFC. Put care into the details:  RFCs that do not present convincing motivation, demonstrate\n  understanding of the impact of the design, or are disingenuous about the drawbacks or alternatives tend to be\n  poorly-received .  Submit a pull request (with a 'Closes #nnn' of the issue number used for initial feedback).  As an RFC in the  reviewing  stage, it will be moved from  1-incoming  to  2-reviewing  under a new pull request for\n  discussion. It will now receive design feedback from the larger community. This PR will link back to the initial data\n  gathering ticket, as well as the pull request ticket.  Under the new  reviewing  issue, build consensus and integrate feedback. RFCs that have broad support are much more\n  likely to make progress than those that don't receive any comments. The author should be prepared to revise their\n  pull request with additional commits in response to any feedback received.  Eventually, the core team will decide whether the RFC is a candidate for inclusion into The Donatinator.  RFCs that are candidates for inclusion in The Donatinator will enter a \"final comment period\" lasting 7 days. The\n  beginning of this period will be signaled with a comment such as \"Final comment period.\" and label on the RFC's pull\n  request. Furthermore,  The Donatinator's official Twitter account  will post a\n  tweet about the RFC to attract the community's attention.  An RFC can be modified based upon feedback from the core team and community. Significant modifications may trigger a\n  new final comment period.  An RFC may be rejected by the core team after public discussion has settled and comments have been made summarizing\n  the rationale for rejection. A member of the core team should then close the RFC's associated pull request.  An RFC may be accepted at the close of its final comment period. A core team member will merge the RFC's associated\n  pull request, at which point the RFC will become 'active'.   If accepted, the  reviewing  PR will be updated to move the RFC to  3-accepted . If not it'll be moved to 5-rejected . Once the RFC has been accepted, anyone (not just the original proposer) can start to implement it. If the RFC is being actively worked on, it'll stay in the  3-accepted  stage.",
-            "title": "The RFC Process"
-        },
-        {
-            "location": "/about/rfcs/#the-rfc-life-cycle",
-            "text": "Once an RFC becomes active then authors may implement it and submit the feature as a pull request to The Donatinator repo . Moving to the  accepted  state is not a rubber\nstamp, and in particular still does not mean the feature will ultimately be merged; it does mean that the core team has\nagreed to it in principle and are amenable to merging it.  Furthermore, the fact that a given RFC has been accepted implies nothing about what priority is assigned to its\nimplementation, nor whether anybody is currently working on it. If you're interested, it is worth asking around to see\nif anybody has an active interest in the RFC at any level.  Modifications to accepted/in-progress RFC's can be done in followup PR's. We strive to write each RFC in a manner that\nit will reflect the final design of the feature; but the nature of the process means that we cannot expect every merged\nRFC to actually reflect what the end result will be at the time of the next major release; therefore we try to keep\neach RFC document somewhat in sync with the language feature as planned, tracking such changes via followup pull\nrequests to the document.",
-            "title": "The RFC Life-Cycle"
-        },
-        {
-            "location": "/about/rfcs/#implementing-an-rfc",
-            "text": "The author of an RFC is not obligated to implement it. Of course, the RFC author (like any other developer) is welcome\nto post an implementation for review after the RFC has been accepted.  If you are interested in working on the implementation for an 'active' RFC, but cannot determine if someone else is\nalready working on it, feel free to ask (e.g. by leaving a comment on the associated issue).",
-            "title": "Implementing an RFC"
-        },
-        {
-            "location": "/about/rfcs/#reviewing-rfcs",
-            "text": "At regular intervals, the core team will attempt to review whatever is currently in the RFC repo. This may involve\nmoving things along, providing feedback, or rejecting them entirely.",
-            "title": "Reviewing RFC's"
-        },
-        {
-            "location": "/about/rfcs/#credits",
-            "text": "Thanks to the following projects for having RFC processes that we were able to build on for our own process:   https://github.com/yarnpkg/rfcs  https://github.com/rust-lang/rfcs  https://github.com/emberjs/rfcs   (Ends)",
-            "title": "Credits"
-        },
-        {
-            "location": "/about/code-of-conduct/",
-            "text": "Code of Conduct\n\n\nOur Pledge\n\n\nIn the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\nnationality, personal appearance, race, religion, or sexual identity and\norientation.\n\n\nOur Standards\n\n\nExamples of behavior that contributes to creating a positive environment\ninclude:\n\n\n\n\nUsing welcoming and inclusive language\n\n\nBeing respectful of differing viewpoints and experiences\n\n\nGracefully accepting constructive criticism\n\n\nFocusing on what is best for the community\n\n\nShowing empathy towards other community members\n\n\n\n\nExamples of unacceptable behavior by participants include:\n\n\n\n\nThe use of sexualized language or imagery and unwelcome sexual attention or\n  advances\n\n\nTrolling, insulting/derogatory comments, and personal or political attacks\n\n\nPublic or private harassment\n\n\nPublishing others' private information, such as a physical or electronic\n  address, without explicit permission\n\n\nOther conduct which could reasonably be considered inappropriate in a\n  professional setting\n\n\n\n\nOur Responsibilities\n\n\nProject maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.\n\n\nProject maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.\n\n\nScope\n\n\nThis Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.\n\n\nEnforcement\n\n\nInstances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at \nandychilton@gmail.com\n. All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.\n\n\nProject maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.\n\n\nAttribution\n\n\nThis Code of Conduct is adapted from the\n\nContributor Covenant\n,\nversion 1.4, available at\n\nhttps://www.contributor-covenant.org/version/1/4/code-of-conduct/\n.\n\n\nThis Page\n\n\nThis copy of the code of conduct lives in the\n\ndocs\n\nrepository and is published on the docs site at\n\nCode of Conduct\n\nfor viewing.",
-            "title": "Code of Conduct"
-        },
-        {
-            "location": "/about/code-of-conduct/#code-of-conduct",
-            "text": "",
-            "title": "Code of Conduct"
-        },
-        {
-            "location": "/about/code-of-conduct/#our-pledge",
-            "text": "In the interest of fostering an open and welcoming environment, we as\ncontributors and maintainers pledge to making participation in our project and\nour community a harassment-free experience for everyone, regardless of age, body\nsize, disability, ethnicity, gender identity and expression, level of experience,\nnationality, personal appearance, race, religion, or sexual identity and\norientation.",
-            "title": "Our Pledge"
-        },
-        {
-            "location": "/about/code-of-conduct/#our-standards",
-            "text": "Examples of behavior that contributes to creating a positive environment\ninclude:   Using welcoming and inclusive language  Being respectful of differing viewpoints and experiences  Gracefully accepting constructive criticism  Focusing on what is best for the community  Showing empathy towards other community members   Examples of unacceptable behavior by participants include:   The use of sexualized language or imagery and unwelcome sexual attention or\n  advances  Trolling, insulting/derogatory comments, and personal or political attacks  Public or private harassment  Publishing others' private information, such as a physical or electronic\n  address, without explicit permission  Other conduct which could reasonably be considered inappropriate in a\n  professional setting",
-            "title": "Our Standards"
-        },
-        {
-            "location": "/about/code-of-conduct/#our-responsibilities",
-            "text": "Project maintainers are responsible for clarifying the standards of acceptable\nbehavior and are expected to take appropriate and fair corrective action in\nresponse to any instances of unacceptable behavior.  Project maintainers have the right and responsibility to remove, edit, or\nreject comments, commits, code, wiki edits, issues, and other contributions\nthat are not aligned to this Code of Conduct, or to ban temporarily or\npermanently any contributor for other behaviors that they deem inappropriate,\nthreatening, offensive, or harmful.",
-            "title": "Our Responsibilities"
-        },
-        {
-            "location": "/about/code-of-conduct/#scope",
-            "text": "This Code of Conduct applies both within project spaces and in public spaces\nwhen an individual is representing the project or its community. Examples of\nrepresenting a project or community include using an official project e-mail\naddress, posting via an official social media account, or acting as an appointed\nrepresentative at an online or offline event. Representation of a project may be\nfurther defined and clarified by project maintainers.",
-            "title": "Scope"
-        },
-        {
-            "location": "/about/code-of-conduct/#enforcement",
-            "text": "Instances of abusive, harassing, or otherwise unacceptable behavior may be\nreported by contacting the project team at  andychilton@gmail.com . All\ncomplaints will be reviewed and investigated and will result in a response that\nis deemed necessary and appropriate to the circumstances. The project team is\nobligated to maintain confidentiality with regard to the reporter of an incident.\nFurther details of specific enforcement policies may be posted separately.  Project maintainers who do not follow or enforce the Code of Conduct in good\nfaith may face temporary or permanent repercussions as determined by other\nmembers of the project's leadership.",
-            "title": "Enforcement"
-        },
-        {
-            "location": "/about/code-of-conduct/#attribution",
-            "text": "This Code of Conduct is adapted from the Contributor Covenant ,\nversion 1.4, available at https://www.contributor-covenant.org/version/1/4/code-of-conduct/ .",
-            "title": "Attribution"
-        },
-        {
-            "location": "/about/code-of-conduct/#this-page",
-            "text": "This copy of the code of conduct lives in the docs \nrepository and is published on the docs site at Code of Conduct \nfor viewing.",
-            "title": "This Page"
-        },
-        {
-            "location": "/about/license/",
-            "text": "Licenses\n\n\nCode\n\n\nAll code is licensed under the \nAGPLv3\n.\n\n\nDocumentation\n\n\nAll documentation is licensed under a \nCreative Commons Attribution-ShareAlike 4.0 International License\n.\n\n\n(Ends)",
-            "title": "License"
-        },
-        {
-            "location": "/about/license/#licenses",
-            "text": "",
-            "title": "Licenses"
-        },
-        {
-            "location": "/about/license/#code",
-            "text": "All code is licensed under the  AGPLv3 .",
-            "title": "Code"
-        },
-        {
-            "location": "/about/license/#documentation",
-            "text": "All documentation is licensed under a  Creative Commons Attribution-ShareAlike 4.0 International License .  (Ends)",
-            "title": "Documentation"
+            "title": "Contact"
         }
     ]
 }

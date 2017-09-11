@@ -47,24 +47,8 @@
      <changefreq>daily</changefreq>
     </url>
         
-    
-
-    
-        
     <url>
-     <loc>http://donatinator.org/config/environment/</loc>
-     <lastmod>2017-09-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://donatinator.org/config/themes/</loc>
-     <lastmod>2017-09-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://donatinator.org/config/plugins/</loc>
+     <loc>http://donatinator.org/user/terminology/</loc>
      <lastmod>2017-09-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -86,7 +70,19 @@
     </url>
         
     <url>
-     <loc>http://donatinator.org/tech/terminology/</loc>
+     <loc>http://donatinator.org/tech/environment/</loc>
+     <lastmod>2017-09-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://donatinator.org/tech/themes/</loc>
+     <lastmod>2017-09-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://donatinator.org/tech/plugins/</loc>
      <lastmod>2017-09-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -96,7 +92,43 @@
     
         
     <url>
+     <loc>http://donatinator.org/project/features/</loc>
+     <lastmod>2017-09-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
      <loc>http://donatinator.org/project/roadmap/</loc>
+     <lastmod>2017-09-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://donatinator.org/project/release-notes/</loc>
+     <lastmod>2017-09-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://donatinator.org/project/contributing/</loc>
+     <lastmod>2017-09-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://donatinator.org/project/rfcs/</loc>
+     <lastmod>2017-09-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://donatinator.org/project/code-of-conduct/</loc>
+     <lastmod>2017-09-11</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>http://donatinator.org/project/license/</loc>
      <lastmod>2017-09-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
@@ -118,31 +150,7 @@
     </url>
         
     <url>
-     <loc>http://donatinator.org/about/release-notes/</loc>
-     <lastmod>2017-09-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://donatinator.org/about/contributing/</loc>
-     <lastmod>2017-09-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://donatinator.org/about/rfcs/</loc>
-     <lastmod>2017-09-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://donatinator.org/about/code-of-conduct/</loc>
-     <lastmod>2017-09-11</lastmod>
-     <changefreq>daily</changefreq>
-    </url>
-        
-    <url>
-     <loc>http://donatinator.org/about/license/</loc>
+     <loc>http://donatinator.org/about/contact/</loc>
      <lastmod>2017-09-11</lastmod>
      <changefreq>daily</changefreq>
     </url>
