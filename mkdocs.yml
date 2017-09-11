@@ -13,6 +13,7 @@ pages:
     - Recurring Donations: user/recurring-donations.md
     - Campaigns: user/campaigns.md
     - Fundraising: user/fundraising.md
+    - Admin: user/admin.md
 - Configuration:
     - Environment: config/environment.md
     - Themes: config/themes.md
