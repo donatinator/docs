@@ -7,11 +7,11 @@ serve:
 build:
 	mkdocs build --clean
 
-release: build
+commit: build
 	git add html
-	git commit -m 'Build'
+	git commit -m 'Clean, Build and Deploy'
 
-deploy: release
+deploy: commit
 	netlify deploy
 
 deploy-only:
