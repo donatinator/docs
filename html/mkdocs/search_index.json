@@ -81,6 +81,16 @@
             "title": "Fundraising"
         },
         {
+            "location": "/user/admin/",
+            "text": "Admin\n\n\n(Ends)",
+            "title": "Admin"
+        },
+        {
+            "location": "/user/admin/#admin",
+            "text": "(Ends)",
+            "title": "Admin"
+        },
+        {
             "location": "/config/environment/",
             "text": "Environment\n\n\n(Ends)",
             "title": "Environment"
