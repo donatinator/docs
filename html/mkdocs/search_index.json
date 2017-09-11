@@ -151,6 +151,31 @@
             "title": "Terminology"
         },
         {
+            "location": "/project/roadmap/",
+            "text": "RoadMap\n\n\nWhilst we think the Donatinator is already great at managing and accepting donations online, we also believe there is a\nlong way to go to make it truly useful to all kinds of organisations.\n\n\nSoon : 1-3 months\n\n\n\n\nmore docs\n\n\ncampaigns\n - run a specific campaign such as a Christmas Campaign, or to raise funds for a piece of equipment\n\n\nfundraising\n - allow anyone (e.g. someone you helped) to start a fundraiser (e.g. 10km walk) and accept donations from their friends and family\n\n\n\n\nMedium Term : 3-6 months\n\n\n\n\nability for your donors to log in and manage their subscriptions\n\n\n\n\nLong Term : 6-12 months\n\n\n\n\nToDo\n\n\n\n\n(Ends)",
+            "title": "RoadMap"
+        },
+        {
+            "location": "/project/roadmap/#roadmap",
+            "text": "Whilst we think the Donatinator is already great at managing and accepting donations online, we also believe there is a\nlong way to go to make it truly useful to all kinds of organisations.",
+            "title": "RoadMap"
+        },
+        {
+            "location": "/project/roadmap/#soon-1-3-months",
+            "text": "more docs  campaigns  - run a specific campaign such as a Christmas Campaign, or to raise funds for a piece of equipment  fundraising  - allow anyone (e.g. someone you helped) to start a fundraiser (e.g. 10km walk) and accept donations from their friends and family",
+            "title": "Soon : 1-3 months"
+        },
+        {
+            "location": "/project/roadmap/#medium-term-3-6-months",
+            "text": "ability for your donors to log in and manage their subscriptions",
+            "title": "Medium Term : 3-6 months"
+        },
+        {
+            "location": "/project/roadmap/#long-term-6-12-months",
+            "text": "ToDo   (Ends)",
+            "title": "Long Term : 6-12 months"
+        },
+        {
             "location": "/about/why/",
             "text": "Why a Donor Portal?\n\n\nRecently I've been helping a small charity set up the ability to take online donations. After initial discussions about\nwhat they would need to consider and what technical problems we had to solve, we started on the research path to find\nout what hosting environments were needed and who could already provide this.\n\n\nBut as a programmer, something was already tickling the back of my brain. Most, if not all, of the services required\nwould have to be paid for and, to be honest, it all seemed too hard.\n\n\n(Note: I have a blog post brewing with all of the things we encountered, so I'll link to that from here soon.)\n\n\nThere is a \nbig\n list of roadblocks we hit along the way, but the main thing came down to this:\n\n\n\n\nBeing able to use your own domain with HTTPS (TLS/SSL) is going to cost money.\n\n\n\n\nAs a programmer who knows how to get free/cheap hosting, free SSL certificates (thanks to LetsEncrypt) I just thought\nto myself that a small charity shouldn't \nhave\n to pay someone to do all of this for them. I think they \ncan\n pay\nsomeone if they want to, but to me, there didn't seem like there was a simple and free option out there they could use.\n\n\nIn the end, I just started programming \nThe Donatinator\n on the hope that the charity would use it and I could open\nsource it for anyone else to use too! Unfortunately the charity found a solution called 'DonorBox' which I looked at\nand told them that it looked perfect for their use case. They decided to use that instead.\n\n\nI was obviously sad about this ...\n\n\n... however, there is still a gap in the market ...\n\n\n... and that made me more determined to carry on and make something out of this great start!\n\n\nSo I continued to develop \nThe Donatinator\n and now it is more than capable of doing most of what you need.\n\n\n-- Andrew Chilton (2017-08-29)\n\n\n(Ends)",
             "title": "Why a Donor Portal?"
