@@ -14,24 +14,25 @@ pages:
     - Campaigns: user/campaigns.md
     - Fundraising: user/fundraising.md
     - Admin: user/admin.md
-- Configuration:
-    - Environment: config/environment.md
-    - Themes: config/themes.md
-    - Plugins: config/plugins.md
+    - Terminology: user/terminology.md
 - Technical Guide:
     - Considerations: tech/considerations.md
     - Hosting: tech/hosting.md
-    - Terminology: tech/terminology.md
+    - Environment: tech/environment.md
+    - Themes: tech/themes.md
+    - Plugins: tech/plugins.md
 - Project:
+    - Features: project/features.md
     - RoadMap: project/roadmap.md
+    - Release Notes: project/release-notes.md
+    - Contributing: project/contributing.md
+    - RFCs: project/rfcs.md
+    - Code of Conduct: project/code-of-conduct.md
+    - License: project/license.md
 - About:
     - Why a Donor Portal?: about/why.md
     - FAQ: about/faq.md
-    - Release Notes: about/release-notes.md
-    - Contributing: about/contributing.md
-    - RFCs: about/rfcs.md
-    - Code of Conduct: about/code-of-conduct.md
-    - License: about/license.md
+    - Contact: about/contact.md
 
 site_dir: html
 
