@@ -267,12 +267,60 @@
     
         <li class="main active"><a href="#hosting">Hosting</a></li>
         
+            <li><a href="#pre-requisites">Pre-Requisites</a></li>
+        
+            <li><a href="#heroku">Heroku</a></li>
+        
+            <li><a href="#via-the-one-click-install">Via the One Click Install</a></li>
+        
+            <li><a href="#via-the-heroku-dashboard">Via the Heroku Dashboard</a></li>
+        
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
 <h1 id="hosting">Hosting</h1>
+<p>Currently, the Donatinator can be hosted on various different PaaS solutions such as Heroku or OpenShift, run on your
+own server, or run through a container orchestration framework such as Kubernetes (coming soon) or Nomad (coming soon).</p>
+<h2 id="pre-requisites">Pre-Requisites</h2>
+<p>The first (and only) thing you need is a Stripe account, your
+<a href="https://dashboard.stripe.com/account/apikeys">API keys</a>
+(publishable key and secret key), and the signing secret from your
+<a href="https://dashboard.stripe.com/account/webhooks">webhook</a>
+configuration.</p>
+<h2 id="heroku">Heroku</h2>
+<p>There are three ways you can set up your app on Heroku. This may depend on how technical you are, or whether you prefer
+a one-click install, clicking around the Heroku Dashboard, or doing everything via the command line (or a combination
+of all these).</p>
+<h2 id="via-the-one-click-install">Via the One Click Install</h2>
+<p>ToDo.</p>
+<h2 id="via-the-heroku-dashboard">Via the Heroku Dashboard</h2>
+<p>Firstly, head into your <a href="https://dashboard.heroku.com/apps">Heroku Dashboard</a> and create a new app.</p>
+<p>From here, you set the following environment variables in the settings tab:</p>
+<ul>
+<li>STRIPE_PUBLIC_KEY</li>
+<li>STRIPE_SECRET_KEY</li>
+<li>STRIPE_ENDPOINT_SECRET</li>
+<li>DATABASE_URL</li>
+</ul>
+<p>For this last config var, you also need to provision a database on the 'Resources' page of your app, by clicking on
+'Add-ons' and searching for Heroku Postgres. For now, just choose a <strong>HobbyDev - Free</strong> plan.</p>
+<p>Once you've done the above, you need to clone the Donatinator code, set up the remote (use your own app name instead of <code>furry-goat-123</code>), and finally push to Heroku:</p>
+<pre><code>$ git clone https://gitlab.com/donatinator/donatinator.git
+$ cd donatinator
+$ heroku git:remote -a furry-goat-123
+$ git push heroku master
+</code></pre>
+
+<p>You may need to read the
+<a href="https://devcenter.heroku.com/articles/git">Git article on the Heroku docs</a>
+for more information.</p>
+<p>Please
+<a href="https://gitlab.com/donatinator/docs/issues">let us know</a>
+how you get on with these instructions.</p>
+<h3 id="via-cli">Via CLI</h3>
+<p>You can perform most of the above using the command line. ToDo.</p>
 <p>(Ends)</p></div>
             
         </div>

@@ -267,12 +267,46 @@
     
         <li class="main active"><a href="#environment">Environment</a></li>
         
+            <li><a href="#port">PORT</a></li>
+        
+            <li><a href="#node_env">NODE_ENV</a></li>
+        
+            <li><a href="#stripe_public_key">STRIPE_PUBLIC_KEY</a></li>
+        
+            <li><a href="#stripe_secret_key">STRIPE_SECRET_KEY</a></li>
+        
+            <li><a href="#stripe_endpoint_secret">STRIPE_ENDPOINT_SECRET</a></li>
+        
+            <li><a href="#database_url">DATABASE_URL</a></li>
+        
     
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
 
-<h2 id="environment">Environment</h2>
+<h1 id="environment">Environment</h1>
+<p>The following environment variables are required to be set when starting The Donatinator.</p>
+<h3 id="port">PORT</h3>
+<p>Specifies what port the webserver should listen on (default: 3000).</p>
+<p>Depending on your hosting this may be provided by the platform. If you host yourself you should provide it in the
+script or environment you use to start the server. For example the Heroku platform provides this to your app directly
+every time your server starts.</p>
+<h3 id="node_env">NODE_ENV</h3>
+<p>In general you should set this to <code>production</code>. Any other value is not supported by us.</p>
+<h3 id="stripe_public_key">STRIPE_PUBLIC_KEY</h3>
+<p>Your Stripe Publishable Key.</p>
+<p>e.g. <code>pk_live_abc123</code></p>
+<h3 id="stripe_secret_key">STRIPE_SECRET_KEY</h3>
+<p>Your Stripe Secret Key.</p>
+<p>e.g. <code>sk_live_abc123</code></p>
+<h3 id="stripe_endpoint_secret">STRIPE_ENDPOINT_SECRET</h3>
+<p>The endpoint secret as specified when you set up a Stripe Webhook from within Stripe.</p>
+<p>e.g. <code>whsec_abc123</code></p>
+<p>Note: you can set up multiple endpoints in Stripe, so this is specific to the endpoint on your Donatinator app.</p>
+<h3 id="database_url">DATABASE_URL</h3>
+<p>Specifies the fully qualified database URL your app's database resides on.</p>
+<p>e.g. <code>postgres://username:password@host:5432/database-name</code></p>
+<p>This is set automatically by the Heroku platform when you provision a Postgres add-on. You'll have to set this if you are hosting your app yourself.</p>
 <p>(Ends)</p></div>
             
         </div>

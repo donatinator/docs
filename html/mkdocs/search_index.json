@@ -2,7 +2,7 @@
     "docs": [
         {
             "location": "/",
-            "text": "The Donatinator\n\n\nThe Donatinator is an open-source web application to help you accept One-Off or Recurring Donations for your charity or\nnon-profit. It is written in nodejs, uses Postgres, and can be hosted on your own server, Heroku, AppEngine, and many\nother hosting sites. It uses Stripe for payment processing.\n\n\nFeatures\n\n\nThought this project is still young, it already has a solid feature set and is stable. Future improvements will be\nbuilt on top of the foundation already provided.\n\n\n\n\naccept single/one-off donations\n\n\nset up recurring donations (weekly, monthly, yearly)\n\n\nset default currency\n\n\ncontent pages written in Markdown\n\n\nembed a donation form into your current site (coming soon!)\n\n\nset up 'Campaigns' for you to raise funds (coming soon!)\n\n\nallow your supporters to set up a 'Fund Raising' page (coming soon!)\n\n\n\n\nEssentially we want the Donatinator to be as featureful as any of the hosted (paid) sites out there and in fact, a\nsuperset of what any specific one of them provides.\n\n\nDemo Sites\n\n\nA demo site can be seen at \ndonatinator.herokuapp.com\n.\n\n\nIn the future, we will set up demo sites on all of the following platforms:\n\n\n\n\nHeroku (Done)\n\n\nGoogle AppEngine\n\n\nOpenShift\n\n\nnow.sh\n\n\n(any others?)\n\n\n\n\nLicense\n\n\nThe Donatinator is AGPLv3 which means you can use it for free, forever. It also means that if you change it, you must\nlink to your changed source code so that the end-user can view it.\n\n\nAuthor\n\n\nWritten by Andrew Chilton.\n\n\n\n\nandychilton at gmail.com\n\n\nchilts.org\n\n\nTwitter:andychilton\n\n\nGitHub:chilts\n\n\n\n\n(Ends)",
+            "text": "The Donatinator\n\n\nThe Donatinator is an open-source web application to help you accept One-Off or Recurring Donations for your charity or\nnon-profit. It is written in nodejs, uses Postgres, and can be hosted on your own server, Heroku, AppEngine, and many\nother hosting sites. It uses Stripe for payment processing.\n\n\nFeatures\n\n\nThough this project is still young, it already has a solid feature set and is stable. Future improvements will be built\non top of the foundation already provided.\n\n\n\n\naccept single/one-off donations\n\n\nset up recurring donations (weekly, monthly, yearly)\n\n\nset default currency\n\n\ncontent pages written in Markdown\n\n\nembed a donation form into your current site (coming soon!)\n\n\nset up 'Campaigns' for you to raise funds (coming soon!)\n\n\nallow your supporters to set up a 'Fund Raising' page (coming soon!)\n\n\n\n\nEssentially we want the Donatinator to be as featureful as any of the hosted (paid) sites out there and in fact, a\nsuperset of what any specific one of them provides.\n\n\nDemo Sites\n\n\nA demo site can be seen at \ndonatinator.herokuapp.com\n.\n\n\nIn the future, we will set up demo sites on all of the following platforms:\n\n\n\n\nHeroku (Done)\n\n\nGoogle AppEngine\n\n\nOpenShift\n\n\nnow.sh\n\n\n(any others?)\n\n\n\n\nLicense\n\n\nThe Donatinator is AGPLv3 which means you can use it for free, forever. It also means that if you change it, you must\nlink to your changed source code so that the end-user can view it.\n\n\nAuthor\n\n\nWritten by Andrew Chilton.\n\n\n\n\nandychilton at gmail.com\n\n\nchilts.org\n\n\nTwitter:andychilton\n\n\nGitHub:chilts\n\n\n\n\n(Ends)",
             "title": "Home"
         },
         {
@@ -12,7 +12,7 @@
         },
         {
             "location": "/#features",
-            "text": "Thought this project is still young, it already has a solid feature set and is stable. Future improvements will be\nbuilt on top of the foundation already provided.   accept single/one-off donations  set up recurring donations (weekly, monthly, yearly)  set default currency  content pages written in Markdown  embed a donation form into your current site (coming soon!)  set up 'Campaigns' for you to raise funds (coming soon!)  allow your supporters to set up a 'Fund Raising' page (coming soon!)   Essentially we want the Donatinator to be as featureful as any of the hosted (paid) sites out there and in fact, a\nsuperset of what any specific one of them provides.",
+            "text": "Though this project is still young, it already has a solid feature set and is stable. Future improvements will be built\non top of the foundation already provided.   accept single/one-off donations  set up recurring donations (weekly, monthly, yearly)  set default currency  content pages written in Markdown  embed a donation form into your current site (coming soon!)  set up 'Campaigns' for you to raise funds (coming soon!)  allow your supporters to set up a 'Fund Raising' page (coming soon!)   Essentially we want the Donatinator to be as featureful as any of the hosted (paid) sites out there and in fact, a\nsuperset of what any specific one of them provides.",
             "title": "Features"
         },
         {
@@ -102,52 +102,87 @@
         },
         {
             "location": "/tech/considerations/",
-            "text": "Considerations\n\n\n(Ends)",
+            "text": "Considerations\n\n\nSome things to consider prior to using The Donatinator is what kind of installation you want. This may depend on\nwhether you currently have a website, and what your hosting already provides you. Let's split this up to make some\ndecisions easier.\n\n\nIs your current site secure (SSL enabled)?\n\n\nIf not, then you need have a link on your site which points to your secure Donatinator hosting. Whether the Donatinator\nis running on a sub-domain of your current domain or it uses the SSL enabled sub-domain of \n*.herokuapp.com\n or\n\n*.appspot.com\n is also up to you.\n\n\nNOTE\n: if your current site is not secure, then you shouldn't embed a Donatinator donation form within a page on\nyour site, since this will still be insecure.\n\n\nDo you have current website?\n\n\nYes/No? If not, you could use The Donatinator as your sole hosting if you only need basic content management.\n\n\nWould you like to accept payments through your current site?\n\n\nIf yes, then you'll need to decide how to integrate the Donatinator. Since the Donatiantor is a standalone app, then\nyou can either link directly to the Donatinator for the donors use, or you can embed a donation form on your\nsite. (Note: you can only embed a form if your current hosting is secure.)\n\n\n(Ends)",
             "title": "Considerations"
         },
         {
             "location": "/tech/considerations/#considerations",
-            "text": "(Ends)",
+            "text": "Some things to consider prior to using The Donatinator is what kind of installation you want. This may depend on\nwhether you currently have a website, and what your hosting already provides you. Let's split this up to make some\ndecisions easier.",
             "title": "Considerations"
         },
         {
+            "location": "/tech/considerations/#is-your-current-site-secure-ssl-enabled",
+            "text": "If not, then you need have a link on your site which points to your secure Donatinator hosting. Whether the Donatinator\nis running on a sub-domain of your current domain or it uses the SSL enabled sub-domain of  *.herokuapp.com  or *.appspot.com  is also up to you.  NOTE : if your current site is not secure, then you shouldn't embed a Donatinator donation form within a page on\nyour site, since this will still be insecure.",
+            "title": "Is your current site secure (SSL enabled)?"
+        },
+        {
+            "location": "/tech/considerations/#do-you-have-current-website",
+            "text": "Yes/No? If not, you could use The Donatinator as your sole hosting if you only need basic content management.",
+            "title": "Do you have current website?"
+        },
+        {
+            "location": "/tech/considerations/#would-you-like-to-accept-payments-through-your-current-site",
+            "text": "If yes, then you'll need to decide how to integrate the Donatinator. Since the Donatiantor is a standalone app, then\nyou can either link directly to the Donatinator for the donors use, or you can embed a donation form on your\nsite. (Note: you can only embed a form if your current hosting is secure.)  (Ends)",
+            "title": "Would you like to accept payments through your current site?"
+        },
+        {
             "location": "/tech/hosting/",
-            "text": "Hosting\n\n\n(Ends)",
+            "text": "Hosting\n\n\nCurrently, the Donatinator can be hosted on various different PaaS solutions such as Heroku or OpenShift, run on your\nown server, or run through a container orchestration framework such as Kubernetes (coming soon) or Nomad (coming soon).\n\n\nPre-Requisites\n\n\nThe first (and only) thing you need is a Stripe account, your\n\nAPI keys\n\n(publishable key and secret key), and the signing secret from your\n\nwebhook\n\nconfiguration.\n\n\nHeroku\n\n\nThere are three ways you can set up your app on Heroku. This may depend on how technical you are, or whether you prefer\na one-click install, clicking around the Heroku Dashboard, or doing everything via the command line (or a combination\nof all these).\n\n\nVia the One Click Install\n\n\nToDo.\n\n\nVia the Heroku Dashboard\n\n\nFirstly, head into your \nHeroku Dashboard\n and create a new app.\n\n\nFrom here, you set the following environment variables in the settings tab:\n\n\n\n\nSTRIPE_PUBLIC_KEY\n\n\nSTRIPE_SECRET_KEY\n\n\nSTRIPE_ENDPOINT_SECRET\n\n\nDATABASE_URL\n\n\n\n\nFor this last config var, you also need to provision a database on the 'Resources' page of your app, by clicking on\n'Add-ons' and searching for Heroku Postgres. For now, just choose a \nHobbyDev - Free\n plan.\n\n\nOnce you've done the above, you need to clone the Donatinator code, set up the remote (use your own app name instead of \nfurry-goat-123\n), and finally push to Heroku:\n\n\n$ git clone https://gitlab.com/donatinator/donatinator.git\n$ cd donatinator\n$ heroku git:remote -a furry-goat-123\n$ git push heroku master\n\n\n\n\nYou may need to read the\n\nGit article on the Heroku docs\n\nfor more information.\n\n\nPlease\n\nlet us know\n\nhow you get on with these instructions.\n\n\nVia CLI\n\n\nYou can perform most of the above using the command line. ToDo.\n\n\n(Ends)",
             "title": "Hosting"
         },
         {
             "location": "/tech/hosting/#hosting",
-            "text": "(Ends)",
+            "text": "Currently, the Donatinator can be hosted on various different PaaS solutions such as Heroku or OpenShift, run on your\nown server, or run through a container orchestration framework such as Kubernetes (coming soon) or Nomad (coming soon).",
             "title": "Hosting"
         },
         {
+            "location": "/tech/hosting/#pre-requisites",
+            "text": "The first (and only) thing you need is a Stripe account, your API keys \n(publishable key and secret key), and the signing secret from your webhook \nconfiguration.",
+            "title": "Pre-Requisites"
+        },
+        {
+            "location": "/tech/hosting/#heroku",
+            "text": "There are three ways you can set up your app on Heroku. This may depend on how technical you are, or whether you prefer\na one-click install, clicking around the Heroku Dashboard, or doing everything via the command line (or a combination\nof all these).",
+            "title": "Heroku"
+        },
+        {
+            "location": "/tech/hosting/#via-the-one-click-install",
+            "text": "ToDo.",
+            "title": "Via the One Click Install"
+        },
+        {
+            "location": "/tech/hosting/#via-the-heroku-dashboard",
+            "text": "Firstly, head into your  Heroku Dashboard  and create a new app.  From here, you set the following environment variables in the settings tab:   STRIPE_PUBLIC_KEY  STRIPE_SECRET_KEY  STRIPE_ENDPOINT_SECRET  DATABASE_URL   For this last config var, you also need to provision a database on the 'Resources' page of your app, by clicking on\n'Add-ons' and searching for Heroku Postgres. For now, just choose a  HobbyDev - Free  plan.  Once you've done the above, you need to clone the Donatinator code, set up the remote (use your own app name instead of  furry-goat-123 ), and finally push to Heroku:  $ git clone https://gitlab.com/donatinator/donatinator.git\n$ cd donatinator\n$ heroku git:remote -a furry-goat-123\n$ git push heroku master  You may need to read the Git article on the Heroku docs \nfor more information.  Please let us know \nhow you get on with these instructions.  Via CLI  You can perform most of the above using the command line. ToDo.  (Ends)",
+            "title": "Via the Heroku Dashboard"
+        },
+        {
             "location": "/tech/environment/",
-            "text": "Environment\n\n\n(Ends)",
+            "text": "Environment\n\n\nThe following environment variables are required to be set when starting The Donatinator.\n\n\nPORT\n\n\nSpecifies what port the webserver should listen on (default: 3000).\n\n\nDepending on your hosting this may be provided by the platform. If you host yourself you should provide it in the\nscript or environment you use to start the server. For example the Heroku platform provides this to your app directly\nevery time your server starts.\n\n\nNODE_ENV\n\n\nIn general you should set this to \nproduction\n. Any other value is not supported by us.\n\n\nSTRIPE_PUBLIC_KEY\n\n\nYour Stripe Publishable Key.\n\n\ne.g. \npk_live_abc123\n\n\nSTRIPE_SECRET_KEY\n\n\nYour Stripe Secret Key.\n\n\ne.g. \nsk_live_abc123\n\n\nSTRIPE_ENDPOINT_SECRET\n\n\nThe endpoint secret as specified when you set up a Stripe Webhook from within Stripe.\n\n\ne.g. \nwhsec_abc123\n\n\nNote: you can set up multiple endpoints in Stripe, so this is specific to the endpoint on your Donatinator app.\n\n\nDATABASE_URL\n\n\nSpecifies the fully qualified database URL your app's database resides on.\n\n\ne.g. \npostgres://username:password@host:5432/database-name\n\n\nThis is set automatically by the Heroku platform when you provision a Postgres add-on. You'll have to set this if you are hosting your app yourself.\n\n\n(Ends)",
             "title": "Environment"
         },
         {
             "location": "/tech/environment/#environment",
-            "text": "(Ends)",
+            "text": "The following environment variables are required to be set when starting The Donatinator.  PORT  Specifies what port the webserver should listen on (default: 3000).  Depending on your hosting this may be provided by the platform. If you host yourself you should provide it in the\nscript or environment you use to start the server. For example the Heroku platform provides this to your app directly\nevery time your server starts.  NODE_ENV  In general you should set this to  production . Any other value is not supported by us.  STRIPE_PUBLIC_KEY  Your Stripe Publishable Key.  e.g.  pk_live_abc123  STRIPE_SECRET_KEY  Your Stripe Secret Key.  e.g.  sk_live_abc123  STRIPE_ENDPOINT_SECRET  The endpoint secret as specified when you set up a Stripe Webhook from within Stripe.  e.g.  whsec_abc123  Note: you can set up multiple endpoints in Stripe, so this is specific to the endpoint on your Donatinator app.  DATABASE_URL  Specifies the fully qualified database URL your app's database resides on.  e.g.  postgres://username:password@host:5432/database-name  This is set automatically by the Heroku platform when you provision a Postgres add-on. You'll have to set this if you are hosting your app yourself.  (Ends)",
             "title": "Environment"
         },
         {
             "location": "/tech/themes/",
-            "text": "Themes\n\n\n(Ends)",
+            "text": "Themes\n\n\nCurrently the Donatinator does not support themes, but we have plans to implement this in the future.\n\n\n(Ends)",
             "title": "Themes"
         },
         {
             "location": "/tech/themes/#themes",
-            "text": "(Ends)",
+            "text": "Currently the Donatinator does not support themes, but we have plans to implement this in the future.  (Ends)",
             "title": "Themes"
         },
         {
             "location": "/tech/plugins/",
-            "text": "Plugins\n\n\n(Ends)",
+            "text": "Plugins\n\n\nCurrently the Donatinator does not support plugins, but we have plans to implement this in the future.\n\n\n(Ends)",
             "title": "Plugins"
         },
         {
             "location": "/tech/plugins/#plugins",
-            "text": "(Ends)",
+            "text": "Currently the Donatinator does not support plugins, but we have plans to implement this in the future.  (Ends)",
             "title": "Plugins"
         },
         {
@@ -162,7 +197,7 @@
         },
         {
             "location": "/project/roadmap/",
-            "text": "RoadMap\n\n\nWhilst we think the Donatinator is already great at managing and accepting donations online, we also believe there is a\nlong way to go to make it truly useful to all kinds of organisations.\n\n\nSoon : 1-3 months\n\n\n\n\nmore docs\n\n\ncampaigns\n - run a specific campaign such as a Christmas Campaign, or to raise funds for a piece of equipment\n\n\nfundraising\n - allow anyone (e.g. someone you helped) to start a fundraiser (e.g. 10km walk) and accept donations from their friends and family\n\n\n\n\nMedium Term : 3-6 months\n\n\n\n\nability for your donors to log in and manage their subscriptions\n\n\n\n\nLong Term : 6-12 months\n\n\n\n\nToDo\n\n\n\n\n(Ends)",
+            "text": "RoadMap\n\n\nWhilst we think the Donatinator is already great at managing and accepting donations online, we also believe there is a\nlong way to go to make it truly useful to all kinds of organisations.\n\n\nSoon : 1-3 months\n\n\n\n\nmore docs\n\n\ncampaigns\n - run a specific campaign such as a Christmas Campaign, or to raise funds for a piece of equipment\n\n\nfundraising\n - allow anyone (e.g. someone you helped) to start a fundraiser (e.g. 10km walk) and accept donations from their friends and family\n\n\n\n\nAlso see the \nNear Term\n milestone in GitLab.\n\n\nMedium Term : 3-6 months\n\n\n\n\nability for your donors to log in and manage their subscriptions\n\n\n\n\nAlso see the \nMedium Term\n milestone in GitLab.\n\n\nLong Term : 6-12 months\n\n\n\n\nToDo\n\n\n\n\nAlso see the \nLong Term\n milestone in GitLab.\n\n\n(Ends)",
             "title": "RoadMap"
         },
         {
@@ -172,17 +207,17 @@
         },
         {
             "location": "/project/roadmap/#soon-1-3-months",
-            "text": "more docs  campaigns  - run a specific campaign such as a Christmas Campaign, or to raise funds for a piece of equipment  fundraising  - allow anyone (e.g. someone you helped) to start a fundraiser (e.g. 10km walk) and accept donations from their friends and family",
+            "text": "more docs  campaigns  - run a specific campaign such as a Christmas Campaign, or to raise funds for a piece of equipment  fundraising  - allow anyone (e.g. someone you helped) to start a fundraiser (e.g. 10km walk) and accept donations from their friends and family   Also see the  Near Term  milestone in GitLab.",
             "title": "Soon : 1-3 months"
         },
         {
             "location": "/project/roadmap/#medium-term-3-6-months",
-            "text": "ability for your donors to log in and manage their subscriptions",
+            "text": "ability for your donors to log in and manage their subscriptions   Also see the  Medium Term  milestone in GitLab.",
             "title": "Medium Term : 3-6 months"
         },
         {
             "location": "/project/roadmap/#long-term-6-12-months",
-            "text": "ToDo   (Ends)",
+            "text": "ToDo   Also see the  Long Term  milestone in GitLab.  (Ends)",
             "title": "Long Term : 6-12 months"
         },
         {
@@ -367,13 +402,18 @@
         },
         {
             "location": "/about/contact/",
-            "text": "Contact\n\n\n(Ends)",
+            "text": "Contact\n\n\nThere is a \n#donatinator\n channel on Freenode if you would like to hang out, chat, and discuss how you could use or\ncontribute to The Donatinator.\n\n\nYou can always email Andrew Chilton on andychilton at gmail dot com if you'd like to know more.\n\n\nComing Soon\n\n\nWe're hoping to get a discussion forum up and running for publically accessible/searchable discussions soon.\n\n\n(Ends)",
             "title": "Contact"
         },
         {
             "location": "/about/contact/#contact",
-            "text": "(Ends)",
+            "text": "There is a  #donatinator  channel on Freenode if you would like to hang out, chat, and discuss how you could use or\ncontribute to The Donatinator.  You can always email Andrew Chilton on andychilton at gmail dot com if you'd like to know more.",
             "title": "Contact"
+        },
+        {
+            "location": "/about/contact/#coming-soon",
+            "text": "We're hoping to get a discussion forum up and running for publically accessible/searchable discussions soon.  (Ends)",
+            "title": "Coming Soon"
         }
     ]
 }
