@@ -6,8 +6,8 @@ other hosting sites. It uses Stripe for payment processing.
 
 ## Features ##
 
-Thought this project is still young, it already has a solid feature set and is stable. Future improvements will be
-built on top of the foundation already provided.
+Though this project is still young, it already has a solid feature set and is stable. Future improvements will be built
+on top of the foundation already provided.
 
 * accept single/one-off donations
 * set up recurring donations (weekly, monthly, yearly)
