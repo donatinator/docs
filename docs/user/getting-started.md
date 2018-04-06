@@ -9,7 +9,7 @@ We'll be setting up a site for a fictional charity called "Save our Pencils", an
 ## Clone the repo from GitLab ##
 
 The first thing to do is get a copy of the code. This guide assumes you already have `git` installed locally. Let's
-clone the public Git endpoint into a directory called `donate`:
+clone the public Git endpoint into a directory called `pencils`:
 
 ```
 $ git clone https://gitlab.com/donatinator/donatinator.git pencils
