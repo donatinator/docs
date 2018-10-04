@@ -1,3 +1,11 @@
+# MOVED TO GITLAB #
+
+Please see the following project for more details:
+
+* https://gitlab.com/donatinator/docs
+
+Thanks.
+
 # donatinator.org #
 
 Welcome to the docs repository for [The Donatinator](https://donatinator.org).
